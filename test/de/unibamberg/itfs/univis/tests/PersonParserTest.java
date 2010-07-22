@@ -6,6 +6,7 @@ package de.unibamberg.itfs.univis.tests;
 
 import de.unibamberg.itfs.univis.domain.Person;
 import de.unibamberg.itfs.univis.domain.Room;
+import de.unibamberg.itfs.univis.xml.XMLParser;
 import java.io.File;
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.Unmarshaller;
@@ -28,8 +29,7 @@ public class PersonParserTest {
 
     public PersonParserTest() throws Exception {
         File file = new File("testFiles/room.xml");
-        DocumentBuilder docb = DocumentBuilderFactory.newInstance().newDocumentBuilder();
-        Document doc = docb.parse(file);
+        Document doc = new XMLParser().loadXml(file);
         NodeList nl = doc.getDocumentElement().getElementsByTagName("Person");
 
         JAXBContext context = JAXBContext.newInstance(Person.class);
@@ -66,7 +66,17 @@ public class PersonParserTest {
     }
 
     @Test
-    public void testLocations(){
+    public void testLocations() {
         assertFalse(person.getLocations().isEmpty());
+    }
+
+    @Test
+    public void testVisible() {
+        assertTrue(person.isVisible());
+    }
+
+    @Test
+    public void testLecturer() {
+        assertFalse(person.isLecturerer());
     }
 }

@@ -3,35 +3,28 @@ package de.unibamberg.itfs.univis.domain;
 import java.util.List;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlElementWrapper;
-import javax.xml.bind.annotation.XmlID;
 import javax.xml.bind.annotation.XmlRootElement;
 
 /**
  *
  * @author gtudan
  */
-@XmlRootElement(name="Person")
-@XmlAccessorType(XmlAccessType.FIELD)
+@XmlRootElement(name = "Person")
+@XmlAccessorType(XmlAccessType.NONE)
 public class Person extends UnivIsEntity {
 
-    @XmlElement(name="firstname")
-    String firstName;
+    @XmlElement(name = "firstname")
+    private String firstName;
+    @XmlElement(name = "lastname")
+    private String lastName;
 
-    @XmlElement(name="lastname")
-    String lastName;
-
-    @XmlElement(name="lehr")
-    boolean lecturerer;
-
-    @XmlElement(defaultValue="true")
-    boolean visible;
-
-    @XmlElementWrapper(name="locations")
-    @XmlElement(name="location",type=Location.class)
-    List<Location> locations;
+    private boolean lecturerer;
+    private boolean visible;
+    @XmlElementWrapper(name = "locations")
+    @XmlElement(name = "location", type = Location.class)
+    private List<Location> locations;
 
     public String getFirstName() {
         return firstName;
@@ -73,4 +66,41 @@ public class Person extends UnivIsEntity {
         this.visible = visible;
     }
 
+    /**
+     * This works around univis representing booleans as "ja/nein"
+     */
+    private String getVisible() {
+        return String.valueOf(this.visible);
+    }
+
+    /**
+     * This works around univis representing booleans as "ja/nein"
+     */
+    @XmlElement(name = "visible")
+    private void setVisible(String visible) {
+        if (visible.equalsIgnoreCase("ja")) {
+            this.visible = true;
+        } else {
+            this.visible = Boolean.valueOf(visible);
+        }
+    }
+
+        /**
+     * This works around univis representing booleans as "ja/nein"
+     */
+    private String getLecturer() {
+        return String.valueOf(this.lecturerer);
+    }
+
+    /**
+     * This works around univis representing booleans as "ja/nein"
+     */
+    @XmlElement(name = "lehr")
+    private void setLecturer(String lecturer) {
+        if (lecturer.equalsIgnoreCase("ja")) {
+            this.lecturerer = true;
+        } else {
+            this.lecturerer = Boolean.valueOf(lecturer);
+        }
+    }
 }

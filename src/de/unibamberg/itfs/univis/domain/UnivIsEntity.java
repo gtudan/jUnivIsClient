@@ -10,12 +10,12 @@ import javax.xml.bind.annotation.*;
 public abstract class UnivIsEntity {
 
     @XmlElement
-    long id;
+    private long id;
     @XmlID
     @XmlAttribute
-    String key;
+    private String key;
     @XmlElement(name = "orgname")
-    String orgName;
+    private String orgName;
 
     public long getId() {
         return id;
