@@ -1,5 +1,6 @@
 package de.unibamberg.itfs.univis.tests;
 
+import de.unibamberg.itfs.univis.xml.XMLParser;
 import de.unibamberg.itfs.univis.domain.Room;
 import java.io.File;
 import javax.xml.bind.JAXBContext;
@@ -27,8 +28,7 @@ public class RoomParserTest {
     @BeforeClass
     public static void setUpClass() throws Exception {
         File file = new File("testFiles/room.xml");
-        DocumentBuilder docb = DocumentBuilderFactory.newInstance().newDocumentBuilder();
-        Document doc = docb.parse(file);
+        Document doc = new XMLParser().loadXml(file);
         NodeList nl = doc.getDocumentElement().getElementsByTagName("Room");
 
         JAXBContext context = JAXBContext.newInstance(Room.class);
@@ -86,4 +86,12 @@ public class RoomParserTest {
         String[] orgUnits = {"Fakultät  Wirtschaftsinformatik / Angewandte Informatik"};
         assertArrayEquals(orgUnits, room.getOrgUnits());
     }
+
+    @Test
+    public void testContacts() {
+        assertFalse(room.getContacts().isEmpty());
+        System.out.println(room.getContacts().get(0));
+        assertEquals("Person.wiai.zentr.zentr.schaib", room.getContacts().get(0).getPerson().getKey());
+    }
+
 }

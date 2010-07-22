@@ -5,11 +5,10 @@
 package de.unibamberg.itfs.univis;
 
 import de.unibamberg.itfs.univis.domain.Room;
+import de.unibamberg.itfs.univis.xml.XMLParser;
 import java.io.File;
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.Unmarshaller;
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
@@ -26,8 +25,8 @@ public class Main {
     public static void main(String[] args) throws Exception {
 
         File file = new File("testFiles/room.xml");
-        DocumentBuilder docb = DocumentBuilderFactory.newInstance().newDocumentBuilder();
-        Document doc = docb.parse(file);
+        Document doc = new XMLParser().loadXml(file);
+        
         NodeList nl = doc.getDocumentElement().getChildNodes();
 
         for (int i = 0; i < nl.getLength(); i++) {
@@ -40,6 +39,8 @@ public class Main {
                 System.out.println(room.getOrgUnits()[0]);
             }
         }
-
     }
+
+
+
 }
