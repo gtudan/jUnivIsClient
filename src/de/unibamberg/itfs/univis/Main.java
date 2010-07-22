@@ -4,7 +4,7 @@
  */
 package de.unibamberg.itfs.univis;
 
-import de.unibamberg.itfs.univis.domain.Room;
+import de.unibamberg.itfs.univis.domain.Allocation;
 import de.unibamberg.itfs.univis.xml.XMLParser;
 import java.io.File;
 import javax.xml.bind.JAXBContext;
@@ -24,19 +24,19 @@ public class Main {
      */
     public static void main(String[] args) throws Exception {
 
-        File file = new File("testFiles/room.xml");
+        File file = new File("testFiles/allocations.xml");
         Document doc = new XMLParser().loadXml(file);
         
         NodeList nl = doc.getDocumentElement().getChildNodes();
 
         for (int i = 0; i < nl.getLength(); i++) {
             Node n = nl.item(i);
-            JAXBContext context = JAXBContext.newInstance(Class.forName("de.unibamberg.itfs.univis.domain.Room"));
+            JAXBContext context = JAXBContext.newInstance(Class.forName("de.unibamberg.itfs.univis.domain.Allocation"));
 
             Unmarshaller um = context.createUnmarshaller();
-            if (n.getNodeName().equals("Room")) {
-                Room room = (Room) um.unmarshal(n);
-                System.out.println(room.getOrgUnits()[0]);
+            if (n.getNodeName().equals("Allocation")) {
+                Allocation alloc = (Allocation) um.unmarshal(n);
+                //System.out.println(room.getOrgUnits()[0]);
             }
         }
     }

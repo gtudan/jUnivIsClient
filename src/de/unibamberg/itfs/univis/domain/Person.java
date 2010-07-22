@@ -17,11 +17,36 @@ public class Person extends UnivIsEntity {
 
     @XmlElement(name = "firstname")
     private String firstName;
+
     @XmlElement(name = "lastname")
     private String lastName;
 
+    public String getLecturerType() {
+        return lecturerType;
+    }
+
+    public void setLecturerType(String lecturerType) {
+        this.lecturerType = lecturerType;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    @XmlElement
+    private String title;
+    
     private boolean lecturerer;
+
+    @XmlElement(name="lehrtyp")
+    private String lecturerType;
+
     private boolean visible;
+
     @XmlElementWrapper(name = "locations")
     @XmlElement(name = "location", type = Location.class)
     private List<Location> locations;
