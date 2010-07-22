@@ -24,6 +24,11 @@ public class UnivIsRefProcessor implements XMLProcessor {
 
     /**
      * This replaces all UnivIsRefs with the real entities from the document
+     *
+     * I could not get the references to work with the ID/IDREF annotations
+     * and typesafe parsing would have been very hard to implement. Since I
+     * don't think that cyclic references will occur, let's reconstruct the
+     * original doc....
      * 
      * @param doc
      * @throws XPathExpressionException
