@@ -54,6 +54,7 @@ public class LectureTest {
     @Test
     public void testLecturers(){
         assertFalse(lecture.getLecturers().isEmpty());
+        assertEquals("Person.wiai.bereic_2.lehrst.weitze", lecture.getLecturers().get(0).getPerson().getKey());
     }
 
 

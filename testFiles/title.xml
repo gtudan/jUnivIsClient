@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE UnivIS SYSTEM "http://univis.uni-bamberg.de/univis.dtd">
+<UnivIS version="1.6" semester="2010s">
+    <Title key="Title.fakult.diplom">
+        <parent-title>
+            <UnivISRef type="Title" key="Title.fakult" />
+        </parent-title>
+        <text>Die Lehrveranstaltungen in den F&#xE4;chern "Betriebswirtschaftslehre", "Volkswirtschaftslehre", "Wirtschaftsmathematik" und "Wirtschaftsp&#xE4;dagogik" sind unter "Diplom-, Bachelor-,Masterstudieng&#xE4;nge Wirtschaftswissenschaften und Bachelor-/Masterstudiengang European Economic Studies (EES)" der Fakult&#xE4;t Sozial- und Wirtschaftswissenschaften, die Lehrverantaltungen in den F&#xE4;chern "Recht", "Statistik" und "Wirtschaftsenglisch" sind unter "Weitere F&#xE4;cher" an der Fakult&#xE4;t Sozial- und Wirtschaftswissenschaften aufgef&#xFC;hrt.&#x0D;&#x0A;&#x0D;&#x0A;Im Rahmen des Studienschwerpunktes "Medieninformatik" sind die Lehrveranstaltungen im Fach "Kommunikationswissenschaften" unter der Fakult&#xE4;t Geistes- und Kulturwissenschaften, die Lehrveranstaltungen in den F&#xE4;chern "Mediendidaktik/-p&#xE4;dagogik" und "Medienpsychologie" sind unter der Fakult&#xE4;t Humanwissenschaften aufgef&#xFC;hrt.</text>
+        <title>Bachelor-/Master-/Diplomstudieng&#xE4;nge Angewandte Informatik, Wirtschaftsinformatik, Wirtschaftsp&#xE4;dagogik mit Schwerpunkt Wirtschaftsinformatik</title>
+    </Title>
+    <Title key="Title.fakult">
+        <text>*Zeittafel*&#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;Sommersemester 01.04.2010 � 30.09.2010 (einschl.)&#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;Neueinschreibung: 15.03.2010 �09.04.2010 (einschl.)&#x0D;&#x0A;&#x0D;&#x0A;|(Die Einschreibfristen f&#xFC;r zulassungsbeschr&#xE4;nkte Studieng&#xE4;nge werden im Zulassungsbescheid mitgeteilt)|&#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;R&#xFC;ckmeldung f&#xFC;r das &#x0D;&#x0A;&#x0D;&#x0A;Wintersemester 2010/2011: 28.06.2010 -16.07.2010&#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;Beginn der Lehrveranstaltungen: 19.04.2010&#x0D;&#x0A;&#x0D;&#x0A;Ende der Lehrveranstaltungen: 24.07.2010&#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;Vorlesungsfreie Zeit:&#x0D;&#x0A;&#x0D;&#x0A;Pfingstferien: &#x09;&#x09;22.05.2010 � 25.05.2010 (einschl.)&#x0D;&#x0A;&#x0D;&#x0A;Feiertage:&#x09;&#x09;13.05.2010 (Christi Himmelfahrt) und 03.06.2010 (Fronleichnam)&#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;Beginn der Lehrveranstaltungen Wintersemester 2010/2011: 18.10.2010&#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;</text>
+        <title>Fakult&#xE4;t Wirtschaftsinformatik und Angewandte Informatik</title>
+    </Title>
+</UnivIS>
