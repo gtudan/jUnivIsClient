@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<!DOCTYPE UnivIS SYSTEM "http://univis.uni-bamberg.de/univis.dtd">
+<UnivIS version="1.6" semester="2010s">
+    <term>
+        <enddate>2010-07-08</enddate>
+        <endtime>18:00</endtime>
+        <exclude>vac</exclude>
+        <repeat>s1</repeat>
+        <room>
+            <UnivISRef type="Room" key="Room.wiai.zentr.zentr.f381" />
+        </room>
+        <startdate>2010-07-08</startdate>
+        <starttime>16:00</starttime>
+    </term>
+     <Room key="Room.wiai.zentr.zentr.f381">
+        <address>Feldkirchenstra&#xDF;e 21</address>
+        <contacts>
+            <contact>
+                <UnivISRef type="Person" key="Person.wiai.zentr.zentr.schaib" />
+            </contact>
+        </contacts>
+        <description>Beamer, DVD, Videorekorder</description>
+        <id>29944538</id>
+        <name>Seminarraum</name>
+        <orgname>Fakult&#xE4;t  Wirtschaftsinformatik / Angewandte Informatik</orgname>
+        <orgunits>
+            <orgunit>Fakult&#xE4;t  Wirtschaftsinformatik / Angewandte Informatik</orgunit>
+        </orgunits>
+        <short>F381</short>
+        <size>48</size>
+    </Room>
+     <Person key="Person.wiai.zentr.zentr.schaib">
+        <firstname>Babette</firstname>
+        <id>20254986</id>
+        <lastname>Schaible</lastname>
+        <lehr>nein</lehr>
+        <locations>
+            <location>
+                <email>dekanat.wiai@uni-bamberg.de</email>
+                <fax>0951/863 2802</fax>
+                <ort>96052 Bamberg</ort>
+                <office>089</office>
+                <street>Feldkirchenstra&#xDF;e 21</street>
+                <tel>0951/863 2801</tel>
+                <url>http://www.uni-bamberg.de/wiai/</url>
+            </location>
+        </locations>
+        <orgname>Fakult&#xE4;t  Wirtschaftsinformatik / Angewandte Informatik</orgname>
+        <orgunits>
+            <orgunit>Fakult&#xE4;t  Wirtschaftsinformatik / Angewandte Informatik</orgunit>
+        </orgunits>
+        <visible>ja</visible>
+    </Person>
+</UnivIS>
