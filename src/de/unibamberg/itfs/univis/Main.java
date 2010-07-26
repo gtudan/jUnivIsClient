@@ -26,7 +26,7 @@ public class Main {
 
         File file = new File("testFiles/allocations.xml");
         Document doc = new XMLParser().loadXml(file);
-        
+
         NodeList nl = doc.getDocumentElement().getChildNodes();
 
         for (int i = 0; i < nl.getLength(); i++) {
@@ -34,13 +34,10 @@ public class Main {
             JAXBContext context = JAXBContext.newInstance(Class.forName("de.unibamberg.itfs.univis.domain.Allocation"));
 
             Unmarshaller um = context.createUnmarshaller();
-            if (n.getNodeName().equals("Allocation")) {
-                Allocation alloc = (Allocation) um.unmarshal(n);
-                //System.out.println(room.getOrgUnits()[0]);
-            }
+
+            Allocation alloc = (Allocation) um.unmarshal(n);
+            System.out.println(alloc.getTitle());
+
         }
     }
-
-
-
 }

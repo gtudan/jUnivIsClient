@@ -30,6 +30,7 @@ public class XMLParser {
     private List<XMLProcessor> preProcessors = new ArrayList();
 
     public XMLParser() {
+        this.preProcessors.add(new IntendRemovingProcessor());
         this.preProcessors.add(new UnivIsRefProcessor());
     }
 
