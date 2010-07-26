@@ -1,8 +1,7 @@
 package de.unibamberg.itfs.univis.xml;
 
-import de.unibamberg.itfs.univis.xml.util.XMLPrettyPrinter;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.LinkedHashSet;
+import java.util.Set;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.xml.xpath.XPath;
@@ -37,7 +36,7 @@ public class UnivIsRefProcessor implements XMLProcessor {
 
         // System.out.println("Document before changing:");
         // printXML(doc);
-        List<Node> cleanup = new ArrayList<Node>();
+        Set<Node> cleanup = new LinkedHashSet<Node>();
         XPath xpath = XPathFactory.newInstance().newXPath();
 
         try {

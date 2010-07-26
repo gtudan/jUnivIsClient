@@ -1,807 +1,159 @@
 <?xml version="1.0"?>
 <!DOCTYPE UnivIS SYSTEM "http://univis.uni-bamberg.de/univis.dtd">
 <UnivIS version="1.6" semester="2010s">
-<Lecture key="Lecture.wiai.bereic_2.lehrst.isdl3m">
-<classification><UnivISRef type="Title" key="Title.fakult.diplom.haupts.fcherd_2.inform" /></classification>
-<dozs>
-<doz><UnivISRef type="Person" key="Person.wiai.bereic_2.lehrst.weitze" /></doz>
-</dozs>
-<gasth>ja</gasth>
-<id>21085799</id>
-<literature>Carr, N.: ”IT doesn&#xB4;t matter”, in: Harvard Business Review (Mai 2003).&#x0D;&#x0A;&#x0D;&#x0A;Chan, Y.E. und Reich, B.H.: ”IT alignment: what have we learned?”, in: Journal of Information Technology (2007) 22, S. 297-315.&#x0D;&#x0A;&#x0D;&#x0A;Henderson, B.D. und Venkatraman, N.: "Strategic alignment: leveraging information technology for transforming organizations", in: IBM Systems Journal (32:1) 1993, S. 4-16.&#x0D;&#x0A;&#x0D;&#x0A;K&#xFC;tz, M.: IT-Controlling f&#xFC;r die Praxis, dpunkt.verlag, Heidelberg, 2005.&#x0D;&#x0A;&#x0D;&#x0A;Laudon, K.C. und Laudon, J.P.: Essentials of Management Information Systems: Managing the Digital Firm, Pearson Education International, New Jersey, 2005.&#x0D;&#x0A;&#x0D;&#x0A;Luftman, J. und Kempaiah, R.: "Key Issues for IT Executives 2007", in: MISQ Executive (7:2) 2008, S. 99-112.&#x0D;&#x0A;&#x0D;&#x0A;Melville, N., Kraemer, K.L. und Gurbaxani, V.: "Information Technology and Organizational Performance: An Integrative Model of IT Business Value", in: MIS Quarterly (28:2) 2004, S. 283-322.&#x0D;&#x0A;&#x0D;&#x0A;Ross, J.W., Beath, C.M. und Goodhue, D.L.: "Develop Long-Term Competitivenessthrough IT Assets", in: Sloan Management Review (38:1) 1996, S. 31-42.&#x0D;&#x0A;&#x0D;&#x0A;Ross, J.W.: ”Creating a Strategic IT Architecture Competency: Learning in Stages”, in: MISQ Executive (2:1) 2003, S. 31-43.&#x0D;&#x0A;&#x0D;&#x0A;Schwarze, J.: Projektmanagement mit Netzplantechnik, (8. Aufl.) Verlag Neue Wirtschafts-Briefe, Herne, Berlin, 2001.&#x0D;&#x0A;&#x0D;&#x0A;Weitere Literatur wird in der Vorlesung bekannt gegeben.</literature>
-<name>ISDL-3-M: Informationssysteme in Dienstleistungsbereichen III: IT-Wertsch&#xF6;pfung</name>
-<orgname>Lehrstuhl f&#xFC;r Wirtschaftsinformatik, insb. Informationssysteme in Dienstleistungsbereichen</orgname>
-<orgunits>
-<orgunit>Fakult&#xE4;t  Wirtschaftsinformatik / Angewandte Informatik</orgunit>
-<orgunit>Bereich Wirtschaftsinformatik</orgunit>
-<orgunit>Lehrstuhl f&#xFC;r Wirtschaftsinformatik, insb. Informationssysteme in Dienstleistungsbereichen</orgunit>
-</orgunits>
-<origin>flexnow:16459</origin>
-<summary>Gegenstand der Lehrveranstaltung sind Ans&#xE4;tze, wie ein Unternehmen die Ressource IT zum Auf- und Ausbau von Wettbewerbsvorteilen einsetzen kann. Dazu werden Aufgaben und Methoden des strategischen und operativen IT-Controlling (wie Infrastruktur- und IT-Portfolio-Controlling, Budgetierung, Profitabilit&#xE4;tsanalyse und Benchmarking) genauso diskutiert wie das Management von IT-Risiken. Da insbesondere in weiten Teilen der Dienstleistungswirtschaft die IT neben den Personalressourcen den prim&#xE4;ren Produktionsfaktor zur Bereitstellung von Diensten darstellt, ist ein Schwerpunkt dieser Veranstaltung die Bestimmung und die Beeinflussung des betriebswirtschaftlichen Nutzens, den Informationssysteme zum Unternehmenserfolg beitragen. Ein wesentlicher Aspekt f&#xFC;r die Erfolgswirkung der Informationssysteme ist dabei die Herausforderung, Gesch&#xE4;fts- und IT-Strategie fortlaufend aufeinander abzustimmen und dieses „IT Business Alignment” auch auf operativer Ebene im Tagesgesch&#xE4;ft umzusetzen, also das Zusammenspiel von IT- und Nicht-IT-Abteilungen zu verstehen und zu gestalten. Insgesamt wird aufgezeigt, dass der optimale Einsatz der Ressource IT im Unternehmen letztlich weniger eine technische Frage des richtigen Systems ist, sondern eine Portfoliobetrachtung erfordert, die sicher stellt, dass die IT im unternehmensspezifischen Kontext gut auf die Gesch&#xE4;ftsprozesse abgestimmt ist und in geeigneter Weise genutzt wird. Die wissenschaftliche Perspektive wird durch Vortr&#xE4;ge von Partnerunternehmen aus der Praxis erg&#xE4;nzt.</summary>
-<sws>2</sws>
-<terms>
-<term>
-<endtime>20:00</endtime>
-<repeat>w1 4</repeat>
-<room><UnivISRef type="Room" key="Room.wiai.zentr.zentr.f384" /></room>
-<starttime>18:00</starttime>
-</term>
-<term>
-<enddate>2010-07-08</enddate>
-<endtime>18:00</endtime>
-<exclude>vac</exclude>
-<repeat>s1</repeat>
-<room><UnivISRef type="Room" key="Room.wiai.zentr.zentr.f381" /></room>
-<startdate>2010-07-08</startdate>
-<starttime>16:00</starttime>
-</term>
-</terms>
-<type>V</type>
-</Lecture>
-<Lecture key="Lecture.wiai.bereic_2.lehrst.isdl3m_0">
-<classification><UnivISRef type="Title" key="Title.fakult.diplom.haupts.fcherd_2.inform" /></classification>
-<dozs>
-<doz><UnivISRef type="Person" key="Person.wiai.bereic_2.lehrst.schlos" /></doz>
-</dozs>
-<id>21086834</id>
-<literature>Carr, N.: ”IT doesn&#xB4;t matter”, in: Harvard Business Review (Mai 2003).&#x0D;&#x0A;&#x0D;&#x0A;Chan, Y.E. und Reich, B.H.: ”IT alignment: what have we learned?”, in: Journal of Information Technology (2007) 22, S. 297-315.&#x0D;&#x0A;&#x0D;&#x0A;Henderson, B.D. und Venkatraman, N.: "Strategic alignment: leveraging information technology for transforming organizations", in: IBM Systems Journal (32:1) 1993, S. 4-16.&#x0D;&#x0A;&#x0D;&#x0A;K&#xFC;tz, M.: IT-Controlling f&#xFC;r die Praxis, dpunkt.verlag, Heidelberg, 2005.&#x0D;&#x0A;&#x0D;&#x0A;Laudon, K.C. und Laudon, J.P.: Essentials of Management Information Systems: Managing the Digital Firm, Pearson Education International, New Jersey, 2005.&#x0D;&#x0A;&#x0D;&#x0A;Luftman, J. und Kempaiah, R.: "Key Issues for IT Executives 2007", in: MISQ Executive (7:2) 2008, S. 99-112.&#x0D;&#x0A;&#x0D;&#x0A;Melville, N., Kraemer, K.L. und Gurbaxani, V.: "Information Technology and Organizational Performance: An Integrative Model of IT Business Value", in: MIS Quarterly (28:2) 2004, S. 283-322.&#x0D;&#x0A;&#x0D;&#x0A;Ross, J.W., Beath, C.M. und Goodhue, D.L.: "Develop Long-Term Competitivenessthrough IT Assets", in: Sloan Management Review (38:1) 1996, S. 31-42.&#x0D;&#x0A;&#x0D;&#x0A;Ross, J.W.: ”Creating a Strategic IT Architecture Competency: Learning in Stages”, in: MISQ Executive (2:1) 2003, S. 31-43.&#x0D;&#x0A;&#x0D;&#x0A;Schwarze, J.: Projektmanagement mit Netzplantechnik, (8. Aufl.) Verlag Neue Wirtschafts-Briefe, Herne, Berlin, 2001.&#x0D;&#x0A;</literature>
-<name>ISDL-3-M: Informationssysteme in Dienstleistungsbereichen III: IT-Wertsch&#xF6;pfung</name>
-<orgname>Lehrstuhl f&#xFC;r Wirtschaftsinformatik, insb. Informationssysteme in Dienstleistungsbereichen</orgname>
-<orgunits>
-<orgunit>Fakult&#xE4;t  Wirtschaftsinformatik / Angewandte Informatik</orgunit>
-<orgunit>Bereich Wirtschaftsinformatik</orgunit>
-<orgunit>Lehrstuhl f&#xFC;r Wirtschaftsinformatik, insb. Informationssysteme in Dienstleistungsbereichen</orgunit>
-</orgunits>
-<origin>flexnow:16460</origin>
-<summary>Die Inhalte der Vorlesung werden anhand von &#xDC;bungsaufgaben und Fallstudien (Gruppenarbeiten) vertieft. Um die in der Vorlesung diskutierten Ans&#xE4;tze erfolgreich umsetzen zu k&#xF6;nnen, ist die Vermittlung von Analysemethoden der qualitativen und quantitativen Empirie notwendig, die an Beispielen aus der Praxis trainiert werden.</summary>
-<sws>2</sws>
-<terms>
-<term>
-<endtime>12:00</endtime>
-<repeat>w1 2</repeat>
-<room><UnivISRef type="Room" key="Room.wiai.zentr.zentr.f381" /></room>
-<starttime>10:00</starttime>
-</term>
-<term>
-<enddate>2010-06-29</enddate>
-<endtime>10:00</endtime>
-<exclude>vac</exclude>
-<repeat>s1</repeat>
-<room><UnivISRef type="Room" key="Room.wiai.zentr.zentr.f384" /></room>
-<startdate>2010-06-29</startdate>
-<starttime>8:00</starttime>
-</term>
-<term>
-<enddate>2010-07-06</enddate>
-<endtime>10:00</endtime>
-<exclude>vac</exclude>
-<repeat>s1</repeat>
-<room><UnivISRef type="Room" key="Room.wiai.zentr.zentr.f384" /></room>
-<startdate>2010-07-06</startdate>
-<starttime>8:00</starttime>
-</term>
-</terms>
-<type>&#xDC;</type>
-</Lecture>
-<Lecture key="Lecture.wiai.bereic_2.lehrst.isdlef">
-<classification><UnivISRef type="Title" key="Title.fakult.diplom.grunds.lehrve_2.inform" /></classification>
-<dozs>
-<doz><UnivISRef type="Person" key="Person.wiai.bereic_2.lehrst.beimbo" /></doz>
-</dozs>
-<gasth>ja</gasth>
-<id>21072280</id>
-<keywords>Electronic Finance, E-Finance, Banking, Wertpapierhandel, Zahlungsverkehr, BPO, Operational Risk, Kreditrisiko</keywords>
-<literature>Beimborn, D., Franke, J., Wagner, H.-T., Weitzel, T.: ”The Influence on the Post-Implementation Success of a Core Banking Information System: An Embedded Case Study” 40th Hawaii International Conference on System Sciences (HICSS-40), Waikoloa, Hawaii.&#x0D;&#x0A;&#x0D;&#x0A;Bodendorf, F., Robra-Bissantz, S.: E-Finance - Elektronische Dienstleistungen in der Finanzwirtschaft. Oldenbourg, M&#xFC;nchen, 2003.&#x0D;&#x0A;&#x0D;&#x0A;Buhl, H.U., N. Kreyer, W. Steck: e-Finance: Innovative Probleml&#xF6;sungen f&#xFC;r Informationssysteme in der Finanzwirtschaft. Springer, Berlin, 2001. &#x0D;&#x0A;&#x0D;&#x0A;Franke, J., Wagner, H.-T., Weitzel, T.: The Role of Information Technology Business Alignment in Value Creation: A Multiple Case Study Among German Banks. International Conference on Information Systems (ICIS), Las Vegas, 2005. &#x0D;&#x0A;&#x0D;&#x0A;Freedman, R.S.: Introduction to Financial Technology. Academic Press, Burlington (MA), 2006.&#x0D;&#x0A;&#x0D;&#x0A;Gewald, H; Franke, J (2007): ”The Risks of Business Process Outsourcing: A Two-Fold Assessment in the German Banking Industry” International Journal of Electronic Finance (1:4), 2007, pp. 420-441.&#x0D;&#x0A;&#x0D;&#x0A;Holzh&#xE4;user, M., Lammers, M., Schwarze, F.: ”Integrated Decision Model for Credit Process Outsourcing” WIRTSCHAFTSINFORMATIK (47:2), 2005. &#x0D;&#x0A;&#x0D;&#x0A;Lamberti, H.-J., Marli&#xE8;re, A., P&#xF6;hler, A.: Management von Transaktionsbanken. Springer, Heidelberg, 2004. &#x0D;&#x0A;&#x0D;&#x0A;Lancellotti, R., Schein, O., Spang, S., Stadler, V.: ”ICT and Operations Outsourcing in Banking – Insights from an Interview-based Pan-European Survey” WIRTSCHAFTSINFORMATIK (45:2), 2003, S. 131-141.&#x0D;&#x0A; &#x0D;&#x0A;&#x0D;&#x0A;Pfaff, D.; Skiera, B.; Weitzel, T.: „Financial-Chain-Management: Ein generisches Modell zur Identifikation von Verbesserungspotenzialen” WIRTSCHAFTSINFORMATIK (46:2), 2004, S. 107-117. &#x0D;&#x0A;&#x0D;&#x0A;Wagner, H; Weitzel, T (2007): ”Towards an IT production function: understanding routines as fundamental for IT value creation” Journal of Enterprise Information Management, (20:4), 2007.</literature>
-<name>ISDL-eFin-B</name>
-<organizational>Wichtig: Die &#xDC;bung beginnt erst in der zweiten Vorlesungswoche am 27.04.10.</organizational>
-<orgname>Lehrstuhl f&#xFC;r Wirtschaftsinformatik, insb. Informationssysteme in Dienstleistungsbereichen</orgname>
-<orgunits>
-<orgunit>Fakult&#xE4;t  Wirtschaftsinformatik / Angewandte Informatik</orgunit>
-<orgunit>Bereich Wirtschaftsinformatik</orgunit>
-<orgunit>Lehrstuhl f&#xFC;r Wirtschaftsinformatik, insb. Informationssysteme in Dienstleistungsbereichen</orgunit>
-</orgunits>
-<origin>flexnow:16457</origin>
-<summary>E-Finance bezeichnet die elektronische Unterst&#xFC;tzung von Finanzprozessen und Transaktionen im inner- und zwischenbetrieblichen Kontext. Darunter fallen&#x0D;&#x0A;a) die Prim&#xE4;rprozesse der Finanzdienstleister wie Kreditabwicklung, Zahlungsverkehr, Wertpapierhandel etc., &#x0D;&#x0A;b) die sekund&#xE4;ren Finanzprozesse aller Unternehmen wie Cash Management, Asset Management, Financial Chain Management (von der Bepreisung &#xFC;ber die Rechnungsstellung bis zur Zahlungseingangskontrolle), &#x0D;&#x0A;c) und die zwischenbetrieblichen Finanztransaktionen, die in der Regel durch Produkte/Dienstleistungen der Finanzdienstleister und ihrer Netzwerke (Zahlungsverkehr, Wertpapierhandel) erf&#xFC;llt werden, aber zunehmend auch mit den Finanzprozessen der anderen Unternehmen integriert sind (bspw. Einbindung eines Autokreditmoduls in den Autoverkaufsprozess eines Kfz-Handelshauses). &#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;Informationstechnologie ist in diesen Prozessen neben Personal die wichtigste „Produktionsressource. Aus diesem Grund werden gerade in der Finanzindustrie wirtschaftsinformatische F&#xE4;higkeiten sehr gesch&#xE4;tzt. Die Vorlesung E-Finance will an dieser Stelle zur Profilierung der Studierenden beitragen und eine Verbindung der generischen wirtschaftsinformatischen Methoden und Kenntnisse mit der Fachdom&#xE4;ne Finanzindustrie&amp;Finanzprozesse herstellen.&#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;Die Schwerpunkte liegen dabei im Bereich&#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;• Arten von Informationssystemen in Finanzprozessen (Transaktionssysteme (bspw. Zahlungsverkehr), Produktionssysteme (bspw. Kreditabwicklungssysteme), CRM (Kundenmanagement), Expertensysteme (bspw. Risikobewertung), Handelsplattformen (B&#xF6;rsen) usw.)&#x0D;&#x0A;&#x0D;&#x0A;• Out- und Insourcing von Finanzprozessen (BPO) auf Basis von Integrationstechnologien, die Bedeutung von BPO f&#xFC;r Banken und Versicherungen – entstehende Risiken und Managementanforderungen&#x0D;&#x0A;&#x0D;&#x0A;• Automatisierung und Integration von Bank- und Versicherungsprozessen &#x0D;&#x0A;&#x0D;&#x0A;• Innovative Bankprodukte, Gesch&#xE4;ftsmodelle und Kundenservice durch IT &#x0D;&#x0A;&#x0D;&#x0A;• Unternehmens&#xFC;bergreifende IT-Infrastrukturen f&#xFC;r den Wertpapierhandel &#x0D;&#x0A;&#x0D;&#x0A;• Financial Chain Management, Integration von Financial Services in die Gesch&#xE4;ftsprozesse von Nicht-Finanzdienstleistern&#x0D;&#x0A;&#x0D;&#x0A;• IT-Compliance in Finanzdienstleistungsprozessen &#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;Neben Grundlagen &#xFC;ber den Finanzdienstleistungssektor (Klassifikation von Marktteilnehmern, Typisierung von Gesch&#xE4;ftsprozessen, Marktentwicklungen) sowie die Rolle der IT in diesen Unternehmen und Gesch&#xE4;ftsprozessen vermittelt die Vorlesung auch aktuelle wissenschaftliche Erkenntnisse zu den unterschiedlichen behandelten Schwerpunkten. Hierf&#xFC;r besteht eine enge Kooperation mit dem E-Finance Lab in Frankfurt (www.efinancelab.de), welches eine der in Deutschland f&#xFC;hrenden wissenschaftlichen Forschungsinstitutionen zur Fragestellung darstellt, wie IT einen wertvollen Beitrag zur Transformation und Industrialisierung der Finanzindustrie sowie im Offerieren innovativer Finanzprodukte leisten kann.&#x0D;&#x0A;In der begleitenden &#xDC;bung werden die Inhalte durch &#xDC;bungsaufgaben und Fallstudien vertieft. &#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;Geplante Agenda der Vorlesung:&#x0D;&#x0A;&#x0D;&#x0A;01 - Einf&#xFC;hrung: &#xDC;berblick &#xFC;ber Industriestruktur und Player, Definition von "E-Finance"&#x0D;&#x0A;&#x0D;&#x0A;02 - Versicherungen: Produkte, Prozesse und IT-Systeme&#x0D;&#x0A;&#x0D;&#x0A;03 - Banken: Produkte und Retailbanking&#x0D;&#x0A;&#x0D;&#x0A;04 - Zahlungsverkehr und Wertpapierabwicklung&#x0D;&#x0A;&#x0D;&#x0A;05 - B&#xF6;rsen und Handelssysteme&#x0D;&#x0A;&#x0D;&#x0A;06 - Kredite: Produkte, Prozesse und IT-Systeme&#x0D;&#x0A;&#x0D;&#x0A;07 - Risiko und Compliance&#x0D;&#x0A;&#x0D;&#x0A;08 - Verfahren zu Risikobestimmung und -management&#x0D;&#x0A;&#x0D;&#x0A;09 - Ratingagenturen: Bewertung von Unternehmen und Aktien&#x0D;&#x0A;&#x0D;&#x0A;10 - IT-Standards in der Finanzindustrie&#x0D;&#x0A;&#x0D;&#x0A;11 - Ausblick: Sourcingtrends, Banking Value Networks&#x0D;&#x0A;&#x0D;&#x0A;12 - Finanzmanagement in Nicht-Finanzunternehmen: Financial Chain Management&#x0D;&#x0A;&#x0D;&#x0A;13 - Wiederholung und Klausurvorbereitung&#x0D;&#x0A;</summary>
-<sws>2</sws>
-<turnout>15</turnout>
-<terms>
-<term>
-<endtime>12:00</endtime>
-<repeat>w1 5</repeat>
-<room><UnivISRef type="Room" key="Room.wiai.zentr.zentr.f384" /></room>
-<starttime>10:00</starttime>
-</term>
-<term>
-<enddate>2010-06-01</enddate>
-<endtime>20:00</endtime>
-<exclude>vac</exclude>
-<repeat>s1</repeat>
-<room><UnivISRef type="Room" key="Room.wiai.bereic_2.lehrst.f041" /></room>
-<startdate>2010-06-01</startdate>
-<starttime>18:00</starttime>
-</term>
-<term>
-<enddate>2010-06-21</enddate>
-<endtime>20:00</endtime>
-<exclude>vac</exclude>
-<repeat>s1</repeat>
-<room><UnivISRef type="Room" key="Room.wiai.bereic_2.lehrst.f041" /></room>
-<startdate>2010-06-21</startdate>
-<starttime>18:00</starttime>
-</term>
-<term>
-<enddate>2010-06-24</enddate>
-<endtime>20:00</endtime>
-<exclude>vac</exclude>
-<repeat>s1</repeat>
-<room><UnivISRef type="Room" key="Room.wiai.bereic_2.lehrst.f041" /></room>
-<startdate>2010-06-24</startdate>
-<starttime>18:00</starttime>
-</term>
-<term>
-<enddate>2010-05-11</enddate>
-<endtime>20:00</endtime>
-<exclude>vac</exclude>
-<repeat>s1</repeat>
-<room><UnivISRef type="Room" key="Room.wiai.bereic_2.lehrst.f041" /></room>
-<startdate>2010-05-11</startdate>
-<starttime>16:00</starttime>
-</term>
-<term>
-<enddate>2010-06-22</enddate>
-<endtime>19:00</endtime>
-<exclude>vac</exclude>
-<repeat>s1</repeat>
-<room><UnivISRef type="Room" key="Room.wiai.bereic_2.lehrst.f041" /></room>
-<startdate>2010-06-22</startdate>
-<starttime>16:00</starttime>
-</term>
-</terms>
-<type>V</type>
-<url_description>http://www.uni-bamberg.de/isdl</url_description>
-</Lecture>
-<Lecture key="Lecture.wiai.bereic_2.lehrst.isdlef_1">
-<classification><UnivISRef type="Title" key="Title.fakult.diplom.grunds.lehrve_2.inform" /></classification>
-<dozs>
-<doz><UnivISRef type="Person" key="Person.wiai.bereic_2.lehrst.nn" /></doz>
-</dozs>
-<id>21086982</id>
-<keywords>Risikobewertung, Neuronale Netze, Algorithmic Trading, Cross-selling, Customer Lifetime Value, Bonit&#xE4;tspr&#xFC;fung, Fuzzy Decision Support</keywords>
-<literature>siehe Vorlesung</literature>
-<name>ISDL-eFin-B</name>
-<organizational>Wichtig: Die &#xDC;bung beginnt erst in der zweiten Vorlesungswoche am 27.04.10.</organizational>
-<orgname>Lehrstuhl f&#xFC;r Wirtschaftsinformatik, insb. Informationssysteme in Dienstleistungsbereichen</orgname>
-<orgunits>
-<orgunit>Fakult&#xE4;t  Wirtschaftsinformatik / Angewandte Informatik</orgunit>
-<orgunit>Bereich Wirtschaftsinformatik</orgunit>
-<orgunit>Lehrstuhl f&#xFC;r Wirtschaftsinformatik, insb. Informationssysteme in Dienstleistungsbereichen</orgunit>
-</orgunits>
-<origin>flexnow:16458</origin>
-<startdate>2010-04-27</startdate>
-<summary>Die Inhalte der Vorlesung werden anhand von &#xDC;bungsaufgaben und Fallstudien vertieft. Vermittelt und anhand kleinerer rechnergest&#xFC;tzter Aufgaben trainiert werden die grundlegenden Konzepte der Bonit&#xE4;tspr&#xFC;fung und Risikobewertung auf Basis von Neuronalen Netzen sowie Fuzzy-Decision-Support-Systemen, Algorithmic Trading sowie der Aufbau von Werttreibermodellen.</summary>
-<sws>2</sws>
-<turnout>15</turnout>
-<terms>
-<term>
-<endtime>18:00</endtime>
-<exclude>2010-05-11,vac</exclude>
-<repeat>w1 2</repeat>
-<room><UnivISRef type="Room" key="Room.wiai.zentr.zentr.f384" /></room>
-<starttime>16:00</starttime>
-</term>
-<term>
-<enddate>2010-05-18</enddate>
-<endtime>18:00</endtime>
-<exclude>vac</exclude>
-<repeat>s1</repeat>
-<room><UnivISRef type="Room" key="Room.sowi.zentr.zentr.rz005" /></room>
-<startdate>2010-05-18</startdate>
-<starttime>16:00</starttime>
-</term>
-<term>
-<enddate>2010-06-01</enddate>
-<endtime>20:00</endtime>
-<exclude>vac</exclude>
-<repeat>s1</repeat>
-<room><UnivISRef type="Room" key="Room.sowi.zentr.zentr.rz005" /></room>
-<startdate>2010-06-01</startdate>
-<starttime>16:00</starttime>
-</term>
-<term>
-<enddate>2010-06-22</enddate>
-<endtime>19:00</endtime>
-<exclude>vac</exclude>
-<repeat>s1</repeat>
-<room><UnivISRef type="Room" key="Room.sowi.zentr.zentr.rz005" /></room>
-<startdate>2010-06-22</startdate>
-<starttime>16:00</starttime>
-</term>
-<term>
-<enddate>2010-06-08</enddate>
-<endtime>20:00</endtime>
-<exclude>vac</exclude>
-<repeat>s1</repeat>
-<room><UnivISRef type="Room" key="Room.sowi.zentr.zentr.rz005" /></room>
-<startdate>2010-06-08</startdate>
-<starttime>16:00</starttime>
-</term>
-<term>
-<enddate>2010-06-29</enddate>
-<endtime>19:00</endtime>
-<exclude>vac</exclude>
-<repeat>s1</repeat>
-<room><UnivISRef type="Room" key="Room.wiai.zentr.zentr.rz006" /></room>
-<startdate>2010-06-29</startdate>
-<starttime>16:00</starttime>
-</term>
-<term>
-<enddate>2010-05-11</enddate>
-<endtime>20:00</endtime>
-<exclude>vac</exclude>
-<repeat>s1</repeat>
-<room><UnivISRef type="Room" key="Room.wiai.zentr.zentr.f384" /></room>
-<startdate>2010-05-11</startdate>
-<starttime>16:00</starttime>
-</term>
-</terms>
-<type>&#xDC;</type>
-<url_description>http://uni-bamberg.de/isdl</url_description>
-</Lecture>
-<Lecture key="Lecture.wiai.bereic_2.lehrst.isdlse">
-<classification><UnivISRef type="Title" key="Title.fakult.diplom.grunds.lehrve_2.inform" /></classification>
-<dozs>
-<doz><UnivISRef type="Person" key="Person.wiai.bereic_2.lehrst.beimbo" /></doz>
-</dozs>
-<ects>ja</ects>
-<ects_cred>3</ects_cred>
-<id>21095474</id>
-<keywords>Outsourcing, IT-Management</keywords>
-<name>ISDL-Sem-B: Bachelor-Seminar "Die Rolle der IT f&#xFC;r erfolgreiches Outsourcing"</name>
-<organizational>Das Seminar findet in Form eines Blockseminars im Zeitraum vom 11.06.2010-15.06.2010 in Karlsbad in der Tschechischen Republik statt. Die Teilnehmerzahl ist auf 12 Studierende begrenzt. &#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;F&#xFC;r die Teilnahme am Seminar ist der vorherige Besuch einer oder mehrerer Vorlesungen des Lehrstuhls (insbesondere IT-Controlling) hilfreich, jedoch keine Grundvoraussetzung.&#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;Es werden zwei Zeitpl&#xE4;ne angeboten, wobei die Abschlussvortr&#xE4;ge f&#xFC;r beide Zeitpl&#xE4;ne im Rahmen des Blockseminars erfolgen. Die Grundlagen wissenschaftlichen Arbeitens ("How to write") werden im Rahmen einer Einf&#xFC;hrungsveranstaltung (f&#xFC;r Zeitplan 1) sowie im Rahmen des Kolloquiums f&#xFC;r die Erstellung von Abschlussarbeiten (f&#xFC;r Zeitplan 2) er&#xF6;rtert. Weiterhin wird rechtzeitig vor dem Blockseminar ein Pr&#xE4;sentationstraining (gemeinsam f&#xFC;r beide Zeitpl&#xE4;ne) angeboten. Die Anmeldung erfolgt unter Angabe von drei Themenpr&#xE4;ferenzen (A, B, C) sowie des gew&#xFC;nschten Zeitplans per E-Mail an Alexander von Stetten ("first come, first serve", maximale Teilnehmerzahl: 12). &#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;*Zeitplan 1* (vorlesungsfreie Zeit): &#x0D;&#x0A;- Anmeldung bis Montag, 15.02.2010, 12:00 Uhr (nach R&#xFC;cksprache auch sp&#xE4;ter)&#x0D;&#x0A;- Themenvergabe &amp; Einf&#xFC;hrung in die Grundlagen wissenschaftlichen Arbeitens ("How to write"): Dienstag, 16.02.2010, 18:00-19:30 Uhr, Raum F041&#x0D;&#x0A;- Abgabe der schriftlichen Arbeit: Montag, 12.04.2010, 12:00 Uhr&#x0D;&#x0A;- Feedback zur schriftlichen Arbeit durch den jeweiligen Betreuer als Vorbereitung auf den Vortrag: bis sp&#xE4;testens 04.06.2010&#x0D;&#x0A;- Blockseminar (Vortr&#xE4;ge): 11.06.2010-15.06.2010&#x0D;&#x0A;&#x0D;&#x0A;*Zeitplan 2* (Vorlesungszeit Sommersemester):&#x0D;&#x0A;- Anmeldung bis Montag, 19.04.2010, 12:00 Uhr&#x0D;&#x0A;- Themenvergabe: Dienstag, 20.04.2010, 18:00-18:30 Uhr, Raum F041&#x0D;&#x0A;- Einf&#xFC;hrung in die Grundlagen wissenschaftlichen Arbeitens ("How to write") im Rahmen des Kolloquiums f&#xFC;r die Erstellung von Abschlussarbeiten: 22.04.2010, 16:00-18:00 Uhr c.t., Raum F041&#x0D;&#x0A;- Abgabe der schriftlichen Arbeit: Montag, 31.05.2010, 12:00 Uhr&#x0D;&#x0A;- Feedback zur schriftlichen Arbeit durch den jeweiligen Betreuer als Vorbereitung auf den Vortrag: bis sp&#xE4;testens 04.06.2010&#x0D;&#x0A;- Blockseminar (Vortr&#xE4;ge): 11.06.2010-15.06.2010&#x0D;&#x0A;</organizational>
-<orgname>Lehrstuhl f&#xFC;r Wirtschaftsinformatik, insb. Informationssysteme in Dienstleistungsbereichen</orgname>
-<orgunits>
-<orgunit>Fakult&#xE4;t  Wirtschaftsinformatik / Angewandte Informatik</orgunit>
-<orgunit>Bereich Wirtschaftsinformatik</orgunit>
-<orgunit>Lehrstuhl f&#xFC;r Wirtschaftsinformatik, insb. Informationssysteme in Dienstleistungsbereichen</orgunit>
-</orgunits>
-<origin>flexnow:17690</origin>
-<schein>ja</schein>
-<short>ISDL-Sem-B</short>
-<summary>F&#xFC;r das Sommersemester 2010 bietet der Lehrstuhl f&#xFC;r Wirtschaftsinformatik, insb. Informationssysteme in Dienstleistungsbereichen ein Bachelor-Seminar unter dem Titel „Die Rolle der IT f&#xFC;r erfolgreiches Outsourcing” an, welches einen Scheinerwerb erm&#xF6;glicht. &#x0D;&#x0A;&#x0D;&#x0A;Das Outsourcing von IT-Aktivit&#xE4;ten und Gesch&#xE4;ftsprozessen ist ein wesentliches Aufgabenfeld f&#xFC;r Wirtschaftsinformatiker. Dabei stellen die Begleitung von Outsourcingentscheidungen, die Migration von Aktivit&#xE4;ten zum Dienstleister und das kunden- oder dienstleisterseitige Management laufender Beziehungen zur Etablierung einer erfolgreichen Partnerschaft schwierige Herausforderungen dar. Ziel ist in allen Punkten die Sicherstellung eines strategischen Wertbeitrages durch die IT f&#xFC;r den Kunden. Es l&#xE4;sst sich jedoch feststellen, dass die genannten Problemfelder weder in der Wissenschaft hinreichend erforscht noch in der Praxis gel&#xF6;st sind. So berichten in Studien regelm&#xE4;&#xDF;ig 25-30 % der outsourcenden Unternehmen &#xFC;ber strukturelle Probleme in der Outsourcingbeziehung oder von „Beziehungsversagen” – R&#xFC;ckabwicklungen oder teure Providerwechsel sind die Folge. &#x0D;&#x0A;&#x0D;&#x0A;Das Seminar besch&#xE4;ftigt sich mit den Grundlagen des IT-Outsourcing und Business Process Outsourcing. Entlang des Outsourcing-Prozesses von der Evaluation &#xFC;ber die Providerauswahl und Vertragsgestaltung bis zur Migration wird durch verschiedene Hausarbeiten herausgearbeitet, welches die grundlegenden Erfolgsfaktoren sind und wie Informationstechnologie dabei unterst&#xFC;tzen kann, erfolgreiches Outsourcing zu realisieren. So sind bspw. Schnittstellen und Abh&#xE4;ngigkeiten zwischen verschiedenen IT-Aktivit&#xE4;ten (bspw. Serverbetrieb vs. Desktop-Services) zu ber&#xFC;cksichtigen, wenn selektives Outsourcing stattfindet oder verschiedene Dienstleister mit den unterschiedlichen Aufgaben betraut werden. Weiterhin stellt sich die Frage, ob serviceorientierte IT-Architekturen dabei helfen, modulare Gesch&#xE4;ftsaktivit&#xE4;ten leichter auszulagern. Auch um die ordnungsgem&#xE4;&#xDF;e Leistungserbringung durch die Dienstleister zu &#xFC;berwachen und die Koordination zwischen den Parteien m&#xF6;glichst effektiv zu gestalten, ist eine geeignete IT-Unterst&#xFC;tzung notwendig. &#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;Themen: &#x0D;&#x0A;- Thema 1: Kartographie des Outsourcingmarktes – Gesch&#xE4;ftsmodelle und Leistungsportfolios der Sourcing-Provider &#x0D;&#x0A;- Thema 2: Outsourcing-Readiness: Wie sollte sich ein Unternehmen technisch und organisatorisch aufstellen, um m&#xF6;glichst erfolgreich outsourcen zu k&#xF6;nnen?&#x0D;&#x0A;- Thema 3: Komplexit&#xE4;tsmanagement im Outsourcing? Wie lassen sich Abh&#xE4;ngigkeiten im IT-Service-Stack bei Selective Sourcing geeignet ber&#xFC;cksichtigen und managen?&#x0D;&#x0A;- Thema 4: Outsourcing und SOA: Welche Bedeutung haben serviceorientierte Architekturen f&#xFC;r erfolgreiches Business Process Outsourcing?&#x0D;&#x0A;- Thema 5: Outsourcing-&#xDC;berwachung: Wie werden Service-Level-Agreements definiert und &#xFC;berwacht? &#x0D;&#x0A;- Thema 6: IT-gest&#xFC;tzte Kommunikation vs. Face-to-Face – Kommunikationsformen und deren Bedeutung f&#xFC;r den Aufbau von Vertrauen in Near- und Offshoring-Beziehungen&#x0D;&#x0A;&#x0D;&#x0A;</summary>
-<sws>2</sws>
-<turnout>12</turnout>
-<terms>
-<term>
-<enddate>2010-02-16</enddate>
-<endtime>19:30</endtime>
-<exclude>vac</exclude>
-<repeat>s1</repeat>
-<room><UnivISRef type="Room" key="Room.wiai.bereic_2.lehrst.f041" /></room>
-<startdate>2010-02-16</startdate>
-<starttime>18:00</starttime>
-</term>
-<term>
-<enddate>2010-04-22</enddate>
-<endtime>18:00</endtime>
-<exclude>vac</exclude>
-<repeat>s1</repeat>
-<room><UnivISRef type="Room" key="Room.wiai.bereic_2.lehrst.f041" /></room>
-<startdate>2010-04-22</startdate>
-<starttime>16:00</starttime>
-</term>
-<term>
-<enddate>2010-04-20</enddate>
-<endtime>18:30</endtime>
-<exclude>vac</exclude>
-<repeat>s1</repeat>
-<room><UnivISRef type="Room" key="Room.wiai.bereic_2.lehrst.f041" /></room>
-<startdate>2010-04-20</startdate>
-<starttime>18:00</starttime>
-</term>
-<term>
-<enddate>2010-05-18</enddate>
-<endtime>20:00</endtime>
-<exclude>vac</exclude>
-<repeat>s1</repeat>
-<room><UnivISRef type="Room" key="Room.wiai.bereic_2.lehrst.f041" /></room>
-<startdate>2010-05-18</startdate>
-<starttime>18:00</starttime>
-</term>
-</terms>
-<time_description>Blockseminar 11.06.-15.06.2010</time_description>
-<type>s</type>
-<url_description>http://www.uni-bamberg.de/isdl/leistungen/studium/bachelor_studium/bachelor_seminar_die_rolle_der_it_fuer_erfolgreiches_outsourcing/</url_description>
-</Lecture>
-<Lecture key="Lecture.wiai.bereic_2.lehrst.isdlse_8">
-<classification><UnivISRef type="Title" key="Title.fakult.diplom.haupts.fcherd_2.inform" /></classification>
-<dozs>
-<doz><UnivISRef type="Person" key="Person.wiai.bereic_2.lehrst.weitze" /></doz>
-</dozs>
-<ects>ja</ects>
-<ects_cred>3</ects_cred>
-<id>21037281</id>
-<keywords>Outsourcing, IT-Management</keywords>
-<name>ISDL-Sem-M: Hauptseminar (Master &amp; Diplom) "Outsourcing von IT und Gesch&#xE4;ftsprozessen – Aktuelle Management-Herausforderungen und gesellschaftliche Implikationen"</name>
-<organizational>Das Seminar findet in Form eines Blockseminars im Zeitraum vom 11.06.2010-15.06.2010 in Karlsbad in der Tschechischen Republik statt. Die Teilnehmerzahl ist auf 8 Studierende begrenzt. &#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;F&#xFC;r die Teilnahme am Seminar ist der vorherige Besuch einer oder mehrerer Vorlesungen des Lehrstuhls (ISDL1, ISDL2, ISDL3, IT-Controlling) hilfreich, jedoch keine Grundvoraussetzung. &#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;Es werden zwei Zeitpl&#xE4;ne angeboten, wobei die Abschlussvortr&#xE4;ge f&#xFC;r beide Zeitpl&#xE4;ne im Rahmen des Blockseminars erfolgen. Die Grundlagen wissenschaftlichen Arbeitens ("How to write") werden im Rahmen einer Einf&#xFC;hrungsveranstaltung (f&#xFC;r Zeitplan 1) sowie im Rahmen des Kolloquiums f&#xFC;r die Erstellung von Abschlussarbeiten (f&#xFC;r Zeitplan 2) er&#xF6;rtert. Weiterhin wird rechtzeitig vor dem Blockseminar ein Pr&#xE4;sentationstraining (gemeinsam f&#xFC;r beide Zeitpl&#xE4;ne) angeboten. Die Anmeldung erfolgt unter Angabe von drei Themenpr&#xE4;ferenzen (A, B, C) sowie des gew&#xFC;nschten Zeitplans per E-Mail an Alexander von Stetten ("first come, first serve", maximale Teilnehmerzahl: 8). &#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;*Zeitplan 1* (vorlesungsfreie Zeit): &#x0D;&#x0A;- Anmeldung bis Montag, 15.02.2010, 12:00 Uhr (nach R&#xFC;cksprache auch sp&#xE4;ter)&#x0D;&#x0A;- Themenvergabe &amp; Einf&#xFC;hrung in die Grundlagen wissenschaftlichen Arbeitens ("How to write"): Dienstag, 16.02.2010, 18:00-19:30 Uhr, Raum F041&#x0D;&#x0A;- Abgabe der schriftlichen Arbeit: Sonntag, 12.04.2010, 12:00 Uhr&#x0D;&#x0A;- Feedback zur schriftlichen Arbeit durch den jeweiligen Betreuer als Vorbereitung auf den Vortrag: bis sp&#xE4;testens 04.06.2010&#x0D;&#x0A;- Blockseminar (Vortr&#xE4;ge): 11.06.2010-15.06.2010&#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;*Zeitplan 2* (Vorlesungszeit Sommersemester):&#x0D;&#x0A;- Anmeldung bis Montag, 19.04.2010, 12:00 Uhr&#x0D;&#x0A;- Themenvergabe: Dienstag, 20.04.2010, 18:00-18:30 Uhr, Raum F041&#x0D;&#x0A;- Einf&#xFC;hrung in die Grundlagen wissenschaftlichen Arbeitens ("How to write") im Rahmen des Kolloquiums f&#xFC;r die Erstellung von Abschlussarbeiten: 22.04.2010, 16:00-18:00 Uhr c.t., Raum F041&#x0D;&#x0A;- Abgabe der schriftlichen Arbeit: Montag, 31.05.2010, 12:00 Uhr&#x0D;&#x0A;- Feedback zur schriftlichen Arbeit durch den jeweiligen Betreuer als Vorbereitung auf den Vortrag: bis sp&#xE4;testens 04.06.2010&#x0D;&#x0A;- Blockseminar (Vortr&#xE4;ge): 11.06.2010-15.06.2010</organizational>
-<orgname>Lehrstuhl f&#xFC;r Wirtschaftsinformatik, insb. Informationssysteme in Dienstleistungsbereichen</orgname>
-<orgunits>
-<orgunit>Fakult&#xE4;t  Wirtschaftsinformatik / Angewandte Informatik</orgunit>
-<orgunit>Bereich Wirtschaftsinformatik</orgunit>
-<orgunit>Lehrstuhl f&#xFC;r Wirtschaftsinformatik, insb. Informationssysteme in Dienstleistungsbereichen</orgunit>
-</orgunits>
-<origin>flexnow:16466</origin>
-<schein>ja</schein>
-<short>ISDL-Sem-M</short>
-<summary>F&#xFC;r das Sommersemester 2010 bietet der Lehrstuhl f&#xFC;r Wirtschaftsinformatik, insb. Informationssysteme in Dienstleistungsbereichen ein Master-Seminar unter dem Titel „Outsourcing von IT und Gesch&#xE4;ftsprozessen – Aktuelle Management-Herausforderungen und gesellschaftliche Implikationen” an, welches einen Scheinerwerb erm&#xF6;glicht. Das Seminar ist auch f&#xFC;r Diplomstudenten offen. &#x0D;&#x0A;&#x0D;&#x0A;Das Outsourcing von IT-Aktivit&#xE4;ten und Gesch&#xE4;ftsprozessen ist ein wesentliches Aufgabenfeld f&#xFC;r Wirtschaftsinformatiker. Dabei stellen die Begleitung von Outsourcingentscheidungen, die Migration von Aktivit&#xE4;ten zum Dienstleister und das kunden- oder dienstleisterseitige Management laufender Beziehungen zur Etablierung einer erfolgreichen Partnerschaft schwierige Herausforderungen dar. Ziel ist in allen Punkten die Sicherstellung eines strategischen Wertbeitrages durch die IT f&#xFC;r den Kunden. Es l&#xE4;sst sich jedoch feststellen, dass die genannten Problemfelder weder in der Wissenschaft hinreichend erforscht noch in der Praxis gel&#xF6;st sind. So berichten in Studien regelm&#xE4;&#xDF;ig 25-30 % der outsourcenden Unternehmen &#xFC;ber strukturelle Probleme in der Outsourcingbeziehung oder von „Beziehungsversagen” – R&#xFC;ckabwicklungen oder teure Providerwechsel sind die Folge. &#x0D;&#x0A;&#x0D;&#x0A;Das Seminar besch&#xE4;ftigt sich mit unterschiedlichen Facetten dieses umfassenden Managementthemas, das heute in keinem gr&#xF6;&#xDF;eren Unternehmen mehr wegzudenken ist. Es stellt sich die Frage, wie ein „Providermanagement” strukturiert und gemanagt werden soll, wie die verschiedenen technischen, organisatorischen, sozialen und kulturellen Aspekte, die solche oft sehr komplexen Unternehmensbeziehungen mit sich bringen, gesteuert werden, und welche &#xF6;konomischen und gesellschaftlichen Implikationen die aktuellen Outsourcingtrends haben, gerade auch bei Verlagerungen in das Ausland durch Nearshore- und Offshore-Outsourcing. &#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;Themen: &#x0D;&#x0A;- Thema 1: Management der Outsourcingbeziehung – Balance zwischen Leistungskontrolle und sozialer Steuerung&#x0D;&#x0A;- Thema 2: Woher wei&#xDF; der Dienstleister, was ich will? Management des Wissenstransfers in IT-Outsourcingbeziehungen&#x0D;&#x0A;- Thema 3: Global Sourcing – Erfolgreiches Management internationaler und interkultureller Outsourcingpartnerschaften &#x0D;&#x0A;- Thema 4: Outsourcing quo vadis? Ver&#xE4;nderte technologische Rahmenbedingungen und &#xF6;konomische Implikationen f&#xFC;r den Outsourcing-Markt&#x0D;&#x0A;- Thema 5: Chancen und Gefahren in der globalisierten Sourcingwelt – Welche gesellschaftlichen Implikationen und politischen Handlungsnotwendigkeiten resultieren aus Near- und Offshoring-Trends?</summary>
-<sws>2</sws>
-<turnout>10</turnout>
-<terms>
-<term>
-<enddate>2010-02-16</enddate>
-<endtime>19:30</endtime>
-<exclude>vac</exclude>
-<repeat>s1</repeat>
-<room><UnivISRef type="Room" key="Room.wiai.bereic_2.lehrst.f041" /></room>
-<startdate>2010-02-16</startdate>
-<starttime>18:00</starttime>
-</term>
-<term>
-<enddate>2010-04-22</enddate>
-<endtime>18:00</endtime>
-<exclude>vac</exclude>
-<repeat>s1</repeat>
-<room><UnivISRef type="Room" key="Room.wiai.bereic_2.lehrst.f041" /></room>
-<startdate>2010-04-22</startdate>
-<starttime>16:00</starttime>
-</term>
-<term>
-<enddate>2010-04-20</enddate>
-<endtime>18:30</endtime>
-<exclude>vac</exclude>
-<repeat>s1</repeat>
-<room><UnivISRef type="Room" key="Room.wiai.bereic_2.lehrst.f041" /></room>
-<startdate>2010-04-20</startdate>
-<starttime>18:00</starttime>
-</term>
-</terms>
-<time_description>Blockseminar 11.06.2010- 15.06.2010</time_description>
-<type>hs</type>
-<url_description>http://www.uni-bamberg.de/isdl/leistungen/studium/master_studium/master_seminar_outsourcing_von_it_und_geschaeftsprozessen_aktuelle_management_herausforderungen_und_gesellschaftliche_implikationen/</url_description>
-</Lecture>
-<Lecture key="Lecture.wiai.bereic_2.lehrst.repeti_0">
-<classification><UnivISRef type="Title" key="Title.fakult.diplom.haupts.fcherd_2.inform" /></classification>
-<dozs>
-<doz><UnivISRef type="Person" key="Person.wiai.bereic_2.lehrst.beimbo" /></doz>
-</dozs>
-<id>21005041</id>
-<name>Repetitorium ISDL-1</name>
-<orgname>Lehrstuhl f&#xFC;r Wirtschaftsinformatik, insb. Informationssysteme in Dienstleistungsbereichen</orgname>
-<orgunits>
-<orgunit>Fakult&#xE4;t  Wirtschaftsinformatik / Angewandte Informatik</orgunit>
-<orgunit>Bereich Wirtschaftsinformatik</orgunit>
-<orgunit>Lehrstuhl f&#xFC;r Wirtschaftsinformatik, insb. Informationssysteme in Dienstleistungsbereichen</orgunit>
-</orgunits>
-<origin>flexnow:16471</origin>
-<summary>Das Repetitorium richtet sich als optionales Angebot an diejenigen Studierenden, die im Sommersemester 2010 die Klausur ISDL-1 schreiben wollen. Im Repetitorium wird der Stoff der Vorlesung und &#xDC;bung aus dem Wintersemester in wichtigen Ausz&#xFC;gen wiederholt. Die aktive Beteiligung und Vorbereitung von &#xDC;bungsaufgaben ist f&#xFC;r die erfolgreiche Teilnahme notwendig.</summary>
-<sws>1</sws>
-<terms>
-<term>
-<enddate>2010-05-04</enddate>
-<endtime>16:00</endtime>
-<exclude>vac</exclude>
-<repeat>s1</repeat>
-<room><UnivISRef type="Room" key="Room.wiai.bereic_2.lehrst.f041" /></room>
-<startdate>2010-05-04</startdate>
-<starttime>14:00</starttime>
-</term>
-<term>
-<enddate>2010-05-18</enddate>
-<endtime>16:00</endtime>
-<exclude>vac</exclude>
-<repeat>s1</repeat>
-<room><UnivISRef type="Room" key="Room.wiai.bereic_2.lehrst.f041" /></room>
-<startdate>2010-05-18</startdate>
-<starttime>14:00</starttime>
-</term>
-<term>
-<enddate>2010-06-08</enddate>
-<endtime>16:00</endtime>
-<exclude>vac</exclude>
-<repeat>s1</repeat>
-<room><UnivISRef type="Room" key="Room.wiai.bereic_2.lehrst.f041" /></room>
-<startdate>2010-06-08</startdate>
-<starttime>14:00</starttime>
-</term>
-<term>
-<enddate>2010-06-22</enddate>
-<endtime>16:00</endtime>
-<exclude>vac</exclude>
-<repeat>s1</repeat>
-<room><UnivISRef type="Room" key="Room.wiai.bereic_2.lehrst.f041" /></room>
-<startdate>2010-06-22</startdate>
-<starttime>14:00</starttime>
-</term>
-<term>
-<enddate>2010-06-29</enddate>
-<endtime>16:00</endtime>
-<exclude>vac</exclude>
-<repeat>s1</repeat>
-<room><UnivISRef type="Room" key="Room.wiai.bereic_2.lehrst.f041" /></room>
-<startdate>2010-06-29</startdate>
-<starttime>14:00</starttime>
-</term>
-<term>
-<enddate>2010-07-13</enddate>
-<endtime>16:00</endtime>
-<exclude>vac</exclude>
-<repeat>s1</repeat>
-<room><UnivISRef type="Room" key="Room.wiai.bereic_2.lehrst.f041" /></room>
-<startdate>2010-07-13</startdate>
-<starttime>14:00</starttime>
-</term>
-<term>
-<enddate>2010-07-20</enddate>
-<endtime>16:00</endtime>
-<exclude>vac</exclude>
-<repeat>s1</repeat>
-<room><UnivISRef type="Room" key="Room.wiai.bereic_2.lehrst.f041" /></room>
-<startdate>2010-07-20</startdate>
-<starttime>14:00</starttime>
-</term>
-<term>
-<enddate>2010-06-15</enddate>
-<endtime>16:00</endtime>
-<exclude>vac</exclude>
-<repeat>s1</repeat>
-<room><UnivISRef type="Room" key="Room.wiai.bereic_2.lehrst.f041" /></room>
-<startdate>2010-06-15</startdate>
-<starttime>14:00</starttime>
-</term>
-</terms>
-<time_description>Starttermin 20.04.2010</time_description>
-<type>r</type>
-</Lecture>
-<Lecture key="Lecture.wiai.bereic_2.lehrst.repeti_9">
-<classification><UnivISRef type="Title" key="Title.fakult.diplom.haupts.fcherd_2.inform" /></classification>
-<dozs>
-<doz><UnivISRef type="Person" key="Person.wiai.bereic_2.lehrst.nn" /></doz>
-</dozs>
-<id>21094226</id>
-<name>Repetitorium ISDL-2</name>
-<orgname>Lehrstuhl f&#xFC;r Wirtschaftsinformatik, insb. Informationssysteme in Dienstleistungsbereichen</orgname>
-<orgunits>
-<orgunit>Fakult&#xE4;t  Wirtschaftsinformatik / Angewandte Informatik</orgunit>
-<orgunit>Bereich Wirtschaftsinformatik</orgunit>
-<orgunit>Lehrstuhl f&#xFC;r Wirtschaftsinformatik, insb. Informationssysteme in Dienstleistungsbereichen</orgunit>
-</orgunits>
-<origin>flexnow:16472</origin>
-<summary>Das Repetitorium richtet sich als optionales Angebot an diejenigen Studierenden, die im Sommersemester 2010 die Klausur ISDL-2 schreiben wollen. Im Repetitorium wird der Stoff der Vorlesung und &#xDC;bung aus dem Wintersemester in wichtigen Ausz&#xFC;gen wiederholt. Die aktive Beteiligung und Vorbereitung von &#xDC;bungsaufgaben ist f&#xFC;r die erfolgreiche Teilnahme notwendig.</summary>
-<sws>1</sws>
-<terms>
-<term>
-<enddate>2010-05-17</enddate>
-<endtime>16:00</endtime>
-<exclude>vac</exclude>
-<repeat>s1</repeat>
-<room><UnivISRef type="Room" key="Room.wiai.bereic_2.lehrst.f041" /></room>
-<startdate>2010-05-17</startdate>
-<starttime>13:00</starttime>
-</term>
-<term>
-<enddate>2010-06-17</enddate>
-<endtime>16:00</endtime>
-<exclude>vac</exclude>
-<repeat>s1</repeat>
-<room><UnivISRef type="Room" key="Room.wiai.bereic_2.lehrst.f041" /></room>
-<startdate>2010-06-17</startdate>
-<starttime>13:00</starttime>
-</term>
-<term>
-<enddate>2010-07-01</enddate>
-<endtime>16:00</endtime>
-<exclude>vac</exclude>
-<repeat>s1</repeat>
-<room><UnivISRef type="Room" key="Room.wiai.bereic_2.lehrst.f041" /></room>
-<startdate>2010-07-01</startdate>
-<starttime>13:00</starttime>
-</term>
-<term>
-<enddate>2010-07-15</enddate>
-<endtime>16:00</endtime>
-<exclude>vac</exclude>
-<repeat>s1</repeat>
-<room><UnivISRef type="Room" key="Room.wiai.bereic_2.lehrst.f041" /></room>
-<startdate>2010-07-15</startdate>
-<starttime>13:00</starttime>
-</term>
-<term>
-<enddate>2010-06-24</enddate>
-<endtime>15:00</endtime>
-<exclude>vac</exclude>
-<repeat>s1</repeat>
-<room><UnivISRef type="Room" key="Room.wiai.bereic_2.lehrst.f041" /></room>
-<startdate>2010-06-24</startdate>
-<starttime>13:00</starttime>
-</term>
-</terms>
-<time_description>Zeit nach Vereinbarung</time_description>
-<type>r</type>
-</Lecture>
-<Person key="Person.wiai.bereic_2.lehrst.weitze">
-<firstname>Tim</firstname>
-<id>40546558</id>
-<lastname>Weitzel</lastname>
-<lehr>ja</lehr>
-<lehrtyp>hochsc</lehrtyp>
-<locations>
-<location>
-<email>tim.weitzel@uni-bamberg.de</email>
-<ort>96045 Bamberg</ort>
-<office>052</office>
-<street>Feldkirchenstra&#xDF;e 21</street>
-<tel>+49-951-863-2870</tel>
-</location>
-</locations>
-<orgname>Lehrstuhl f&#xFC;r Wirtschaftsinformatik, insb. Informationssysteme in Dienstleistungsbereichen</orgname>
-<orgunits>
-<orgunit>Fakult&#xE4;t  Wirtschaftsinformatik / Angewandte Informatik</orgunit>
-<orgunit>Bereich Wirtschaftsinformatik</orgunit>
-<orgunit>Lehrstuhl f&#xFC;r Wirtschaftsinformatik, insb. Informationssysteme in Dienstleistungsbereichen</orgunit>
-</orgunits>
-<title>Prof.  Dr.</title>
-<visible>ja</visible>
-</Person>
-<Person key="Person.wiai.bereic_2.lehrst.schlos">
-<firstname>Frank</firstname>
-<id>20870467</id>
-<lastname>Schlosser</lastname>
-<lehr>ja</lehr>
-<lehrtyp>mitarb</lehrtyp>
-<locations>
-<location>
-<email>frank.schlosser@uni-bamberg.de</email>
-<ort>96045 Bamberg</ort>
-<office>F 066</office>
-<street>Feldkirchenstr. 21</street>
-<tel>0951 / 863 2875</tel>
-<url>http://www.is-bamberg.de</url>
-</location>
-</locations>
-<orgname>Lehrstuhl f&#xFC;r Wirtschaftsinformatik, insb. Informationssysteme in Dienstleistungsbereichen</orgname>
-<orgunits>
-<orgunit>Fakult&#xE4;t  Wirtschaftsinformatik / Angewandte Informatik</orgunit>
-<orgunit>Bereich Wirtschaftsinformatik</orgunit>
-<orgunit>Lehrstuhl f&#xFC;r Wirtschaftsinformatik, insb. Informationssysteme in Dienstleistungsbereichen</orgunit>
-</orgunits>
-<title>Dipl.-Wirtsch.Inf.</title>
-<visible>ja</visible>
-</Person>
-<Person key="Person.wiai.bereic_2.lehrst.beimbo">
-<atitle>Akad. Rat a.Z.</atitle>
-<firstname>Daniel</firstname>
-<id>20705450</id>
-<lastname>Beimborn</lastname>
-<lehr>ja</lehr>
-<lehrtyp>mitarb</lehrtyp>
-<locations>
-<location>
-<email>daniel.beimborn@uni-bamberg.de</email>
-<fax>+49-951-863-2872</fax>
-<ort>96045 Bamberg</ort>
-<office>050</office>
-<street>Feldkirchenstr. 21</street>
-<tel>+49-951-863-2525</tel>
-</location>
-</locations>
-<orgname>Lehrstuhl f&#xFC;r Wirtschaftsinformatik, insb. Informationssysteme in Dienstleistungsbereichen</orgname>
-<orgunits>
-<orgunit>Fakult&#xE4;t  Wirtschaftsinformatik / Angewandte Informatik</orgunit>
-<orgunit>Bereich Wirtschaftsinformatik</orgunit>
-<orgunit>Lehrstuhl f&#xFC;r Wirtschaftsinformatik, insb. Informationssysteme in Dienstleistungsbereichen</orgunit>
-</orgunits>
-<title>Dr. rer. pol.</title>
-<visible>ja</visible>
-</Person>
-<Person key="Person.wiai.bereic_2.lehrst.nn">
-<firstname>Sven</firstname>
-<id>40177128</id>
-<lastname>Laumer</lastname>
-<lehr>ja</lehr>
-<lehrtyp>mitarb</lehrtyp>
-<locations>
-<location>
-<email>sven.laumer@uni-bamberg.de</email>
-<ort>96045 Bamberg</ort>
-<office>F 051</office>
-<street>Feldkirchenstr. 21</street>
-<tel>0951 - 863 - 2873</tel>
-<url>http://www.is-bamberg.de</url>
-</location>
-</locations>
-<orgname>Lehrstuhl f&#xFC;r Wirtschaftsinformatik, insb. Informationssysteme in Dienstleistungsbereichen</orgname>
-<orgunits>
-<orgunit>Fakult&#xE4;t  Wirtschaftsinformatik / Angewandte Informatik</orgunit>
-<orgunit>Bereich Wirtschaftsinformatik</orgunit>
-<orgunit>Lehrstuhl f&#xFC;r Wirtschaftsinformatik, insb. Informationssysteme in Dienstleistungsbereichen</orgunit>
-</orgunits>
-<title>Dipl.-Wirtsch.Inf.</title>
-<visible>ja</visible>
-</Person>
-<Person key="Person.wiai.zentr.zentr.schaib">
-<firstname>Babette</firstname>
-<id>20254986</id>
-<lastname>Schaible</lastname>
-<lehr>nein</lehr>
-<locations>
-<location>
-<email>dekanat.wiai@uni-bamberg.de</email>
-<fax>0951/863 2802</fax>
-<ort>96052 Bamberg</ort>
-<office>089</office>
-<street>Feldkirchenstra&#xDF;e 21</street>
-<tel>0951/863 2801</tel>
-<url>http://www.uni-bamberg.de/wiai/</url>
-</location>
-</locations>
-<orgname>Fakult&#xE4;t  Wirtschaftsinformatik / Angewandte Informatik</orgname>
-<orgunits>
-<orgunit>Fakult&#xE4;t  Wirtschaftsinformatik / Angewandte Informatik</orgunit>
-</orgunits>
-<visible>ja</visible>
-</Person>
-<Person key="Person.wiai.bereic_2.lehrst.stilke">
-<firstname>Gudrun</firstname>
-<id>40741553</id>
-<lastname>Stilkerich</lastname>
-<lehr>nein</lehr>
-<locations>
-<location>
-<email>gudrun.stilkerich@uni-bamberg.de</email>
-<fax>0951- 863 - 2872</fax>
-<ort>96045 Bamberg</ort>
-<office>F 053</office>
-<street>Feldkirchenstr. 21</street>
-<tel>0951 - 863 - 2871</tel>
-<url>http://www.is-bamberg.de</url>
-</location>
-</locations>
-<orgname>Lehrstuhl f&#xFC;r Wirtschaftsinformatik, insb. Informationssysteme in Dienstleistungsbereichen</orgname>
-<orgunits>
-<orgunit>Fakult&#xE4;t  Wirtschaftsinformatik / Angewandte Informatik</orgunit>
-<orgunit>Bereich Wirtschaftsinformatik</orgunit>
-<orgunit>Lehrstuhl f&#xFC;r Wirtschaftsinformatik, insb. Informationssysteme in Dienstleistungsbereichen</orgunit>
-</orgunits>
-<visible>ja</visible>
-</Person>
-<Person key="Person.sowi.zentr.zentr.stiegm">
-<firstname>Monika</firstname>
-<id>49907678</id>
-<lastname>Stieg</lastname>
-<lehr>nein</lehr>
-<locations>
-<location>
-<email>monika.stieg@uni-bamberg.de</email>
-<fax>0951/863 2502</fax>
-<ort>96045  Bamberg</ort>
-<office>131</office>
-<street>Feldkirchenstra&#xDF;e 21</street>
-<tel>0951/863 2551</tel>
-</location>
-</locations>
-<orgname>Fakult&#xE4;t Sozial- und Wirtschaftswissenschaften</orgname>
-<orgunits>
-<orgunit>Fakult&#xE4;t Sozial- und Wirtschaftswissenschaften</orgunit>
-</orgunits>
-<visible>ja</visible>
-</Person>
-<Room key="Room.wiai.zentr.zentr.f384">
-<address>Feldkirchenstra&#xDF;e 21</address>
-<contacts>
-<contact><UnivISRef type="Person" key="Person.wiai.zentr.zentr.schaib" /></contact>
-</contacts>
-<description>Beamer, DVD, Videorekorder</description>
-<id>29976440</id>
-<name>Seminarraum</name>
-<orgname>Fakult&#xE4;t  Wirtschaftsinformatik / Angewandte Informatik</orgname>
-<orgunits>
-<orgunit>Fakult&#xE4;t  Wirtschaftsinformatik / Angewandte Informatik</orgunit>
-</orgunits>
-<short>F384</short>
-<size>56</size>
-</Room>
-<Room key="Room.wiai.zentr.zentr.f381">
-<address>Feldkirchenstra&#xDF;e 21</address>
-<contacts>
-<contact><UnivISRef type="Person" key="Person.wiai.zentr.zentr.schaib" /></contact>
-</contacts>
-<description>Beamer, DVD, Videorekorder</description>
-<id>29944538</id>
-<name>Seminarraum</name>
-<orgname>Fakult&#xE4;t  Wirtschaftsinformatik / Angewandte Informatik</orgname>
-<orgunits>
-<orgunit>Fakult&#xE4;t  Wirtschaftsinformatik / Angewandte Informatik</orgunit>
-</orgunits>
-<short>F381</short>
-<size>48</size>
-</Room>
-<Room key="Room.wiai.bereic_2.lehrst.f041">
-<address>Feldkirchenstr. 21</address>
-<contacts>
-<contact><UnivISRef type="Person" key="Person.wiai.bereic_2.lehrst.stilke" /></contact>
-</contacts>
-<description>Labor, 1 Medienwagen mit Beamer</description>
-<id>20810209</id>
-<name>ISDL-Labor</name>
-<orgname>Lehrstuhl f&#xFC;r Wirtschaftsinformatik, insb. Informationssysteme in Dienstleistungsbereichen</orgname>
-<orgunits>
-<orgunit>Fakult&#xE4;t  Wirtschaftsinformatik / Angewandte Informatik</orgunit>
-<orgunit>Bereich Wirtschaftsinformatik</orgunit>
-<orgunit>Lehrstuhl f&#xFC;r Wirtschaftsinformatik, insb. Informationssysteme in Dienstleistungsbereichen</orgunit>
-</orgunits>
-<short>F041</short>
-<size>16</size>
-</Room>
-<Room key="Room.sowi.zentr.zentr.rz005">
-<address>Feldkirchenstra&#xDF;e 21</address>
-<contacts>
-<contact><UnivISRef type="Person" key="Person.sowi.zentr.zentr.stiegm" /></contact>
-</contacts>
-<description>Rechnerraum, 1 Medienwagen mit 2 Beamer, 1 Overhead, HiFi-Anlage</description>
-<id>40262426</id>
-<name>PC-Pool</name>
-<orgname>Fakult&#xE4;t Sozial- und Wirtschaftswissenschaften</orgname>
-<orgunits>
-<orgunit>Fakult&#xE4;t Sozial- und Wirtschaftswissenschaften</orgunit>
-</orgunits>
-<short>RZ0.05</short>
-<size>35</size>
-</Room>
-<Room key="Room.wiai.zentr.zentr.rz006">
-<address>Feldkirchenstra&#xDF;e 21</address>
-<contacts>
-<contact><UnivISRef type="Person" key="Person.wiai.zentr.zentr.schaib" /></contact>
-</contacts>
-<description>Rechnerraum, 1 Beamer, Overheadprojektor, HiFi-Anlage</description>
-<id>40419904</id>
-<name>PC - Pool</name>
-<orgname>Fakult&#xE4;t  Wirtschaftsinformatik / Angewandte Informatik</orgname>
-<orgunits>
-<orgunit>Fakult&#xE4;t  Wirtschaftsinformatik / Angewandte Informatik</orgunit>
-</orgunits>
-<short>RZ0.06</short>
-<size>35</size>
-</Room>
-<Title key="Title.fakult.diplom.haupts.fcherd_2.inform">
-<parent-title><UnivISRef type="Title" key="Title.fakult.diplom.haupts.fcherd_2" /></parent-title>
-<title>Informationssysteme in Dienstleistungsbereichen</title>
-</Title>
-<Title key="Title.fakult.diplom.grunds.lehrve_2.inform">
-<parent-title><UnivISRef type="Title" key="Title.fakult.diplom.grunds.lehrve_2" /></parent-title>
-<title>Informationssysteme in Dienstleistungsbereichen</title>
-</Title>
-<Title key="Title.fakult.diplom.haupts.fcherd_2">
-<parent-title><UnivISRef type="Title" key="Title.fakult.diplom.haupts" /></parent-title>
-<title>Lehrveranstaltungen in Wirtschaftsinformatik</title>
-</Title>
-<Title key="Title.fakult.diplom.grunds.lehrve_2">
-<parent-title><UnivISRef type="Title" key="Title.fakult.diplom.grunds" /></parent-title>
-<title>Lehrveranstaltungen in Wirtschaftsinformatik</title>
-</Title>
-<Title key="Title.fakult.diplom.haupts">
-<parent-title><UnivISRef type="Title" key="Title.fakult.diplom" /></parent-title>
-<title>Master</title>
-</Title>
-<Title key="Title.fakult.diplom.grunds">
-<parent-title><UnivISRef type="Title" key="Title.fakult.diplom" /></parent-title>
-<title>Bachelor</title>
-</Title>
-<Title key="Title.fakult.diplom">
-<parent-title><UnivISRef type="Title" key="Title.fakult" /></parent-title>
-<text>Die Lehrveranstaltungen in den F&#xE4;chern "Betriebswirtschaftslehre", "Volkswirtschaftslehre", "Wirtschaftsmathematik" und "Wirtschaftsp&#xE4;dagogik" sind unter "Diplom-, Bachelor-,Masterstudieng&#xE4;nge Wirtschaftswissenschaften und Bachelor-/Masterstudiengang European Economic Studies (EES)" der Fakult&#xE4;t Sozial- und Wirtschaftswissenschaften, die Lehrverantaltungen in den F&#xE4;chern "Recht", "Statistik" und "Wirtschaftsenglisch" sind unter "Weitere F&#xE4;cher" an der Fakult&#xE4;t Sozial- und Wirtschaftswissenschaften aufgef&#xFC;hrt.&#x0D;&#x0A;&#x0D;&#x0A;Im Rahmen des Studienschwerpunktes "Medieninformatik" sind die Lehrveranstaltungen im Fach "Kommunikationswissenschaften" unter der Fakult&#xE4;t Geistes- und Kulturwissenschaften, die Lehrveranstaltungen in den F&#xE4;chern "Mediendidaktik/-p&#xE4;dagogik" und "Medienpsychologie" sind unter der Fakult&#xE4;t Humanwissenschaften aufgef&#xFC;hrt.</text>
-<title>Bachelor-/Master-/Diplomstudieng&#xE4;nge Angewandte Informatik, Wirtschaftsinformatik, Wirtschaftsp&#xE4;dagogik mit Schwerpunkt Wirtschaftsinformatik</title>
-</Title>
-<Title key="Title.fakult">
-<text>*Zeittafel*&#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;Sommersemester 01.04.2010 – 30.09.2010 (einschl.)&#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;Neueinschreibung: 15.03.2010 –09.04.2010 (einschl.)&#x0D;&#x0A;&#x0D;&#x0A;|(Die Einschreibfristen f&#xFC;r zulassungsbeschr&#xE4;nkte Studieng&#xE4;nge werden im Zulassungsbescheid mitgeteilt)|&#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;R&#xFC;ckmeldung f&#xFC;r das &#x0D;&#x0A;&#x0D;&#x0A;Wintersemester 2010/2011: 28.06.2010 -16.07.2010&#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;Beginn der Lehrveranstaltungen: 19.04.2010&#x0D;&#x0A;&#x0D;&#x0A;Ende der Lehrveranstaltungen: 24.07.2010&#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;Vorlesungsfreie Zeit:&#x0D;&#x0A;&#x0D;&#x0A;Pfingstferien: &#x09;&#x09;22.05.2010 – 25.05.2010 (einschl.)&#x0D;&#x0A;&#x0D;&#x0A;Feiertage:&#x09;&#x09;13.05.2010 (Christi Himmelfahrt) und 03.06.2010 (Fronleichnam)&#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;Beginn der Lehrveranstaltungen Wintersemester 2010/2011: 18.10.2010&#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;</text>
-<title>Fakult&#xE4;t Wirtschaftsinformatik und Angewandte Informatik</title>
-</Title>
+    <Lecture key="Lecture.wiai.bereic_2.lehrst.isdl3m">
+        <classification>
+            <UnivISRef type="Title" key="Title.fakult.diplom.haupts.fcherd_2.inform" />
+        </classification>
+        <dozs>
+            <doz>
+                <UnivISRef type="Person" key="Person.wiai.bereic_2.lehrst.weitze" />
+            </doz>
+        </dozs>
+        <gasth>ja</gasth>
+        <id>21085799</id>
+        <literature>Carr, N.: ï¿½IT doesn&#xB4;t matterï¿½, in: Harvard Business Review (Mai 2003).&#x0D;&#x0A;&#x0D;&#x0A;Chan, Y.E. und Reich, B.H.: ï¿½IT alignment: what have we learned?ï¿½, in: Journal of Information Technology (2007) 22, S. 297-315.&#x0D;&#x0A;&#x0D;&#x0A;Henderson, B.D. und Venkatraman, N.: "Strategic alignment: leveraging information technology for transforming organizations", in: IBM Systems Journal (32:1) 1993, S. 4-16.&#x0D;&#x0A;&#x0D;&#x0A;K&#xFC;tz, M.: IT-Controlling f&#xFC;r die Praxis, dpunkt.verlag, Heidelberg, 2005.&#x0D;&#x0A;&#x0D;&#x0A;Laudon, K.C. und Laudon, J.P.: Essentials of Management Information Systems: Managing the Digital Firm, Pearson Education International, New Jersey, 2005.&#x0D;&#x0A;&#x0D;&#x0A;Luftman, J. und Kempaiah, R.: "Key Issues for IT Executives 2007", in: MISQ Executive (7:2) 2008, S. 99-112.&#x0D;&#x0A;&#x0D;&#x0A;Melville, N., Kraemer, K.L. und Gurbaxani, V.: "Information Technology and Organizational Performance: An Integrative Model of IT Business Value", in: MIS Quarterly (28:2) 2004, S. 283-322.&#x0D;&#x0A;&#x0D;&#x0A;Ross, J.W., Beath, C.M. und Goodhue, D.L.: "Develop Long-Term Competitivenessthrough IT Assets", in: Sloan Management Review (38:1) 1996, S. 31-42.&#x0D;&#x0A;&#x0D;&#x0A;Ross, J.W.: ï¿½Creating a Strategic IT Architecture Competency: Learning in Stagesï¿½, in: MISQ Executive (2:1) 2003, S. 31-43.&#x0D;&#x0A;&#x0D;&#x0A;Schwarze, J.: Projektmanagement mit Netzplantechnik, (8. Aufl.) Verlag Neue Wirtschafts-Briefe, Herne, Berlin, 2001.&#x0D;&#x0A;&#x0D;&#x0A;Weitere Literatur wird in der Vorlesung bekannt gegeben.</literature>
+        <name>ISDL-3-M: Informationssysteme in Dienstleistungsbereichen III: IT-Wertsch&#xF6;pfung</name>
+        <orgname>Lehrstuhl f&#xFC;r Wirtschaftsinformatik, insb. Informationssysteme in Dienstleistungsbereichen</orgname>
+        <orgunits>
+            <orgunit>Fakult&#xE4;t  Wirtschaftsinformatik / Angewandte Informatik</orgunit>
+            <orgunit>Bereich Wirtschaftsinformatik</orgunit>
+            <orgunit>Lehrstuhl f&#xFC;r Wirtschaftsinformatik, insb. Informationssysteme in Dienstleistungsbereichen</orgunit>
+        </orgunits>
+        <origin>flexnow:16459</origin>
+        <summary>Gegenstand der Lehrveranstaltung sind Ans&#xE4;tze, wie ein Unternehmen die Ressource IT zum Auf- und Ausbau von Wettbewerbsvorteilen einsetzen kann. Dazu werden Aufgaben und Methoden des strategischen und operativen IT-Controlling (wie Infrastruktur- und IT-Portfolio-Controlling, Budgetierung, Profitabilit&#xE4;tsanalyse und Benchmarking) genauso diskutiert wie das Management von IT-Risiken. Da insbesondere in weiten Teilen der Dienstleistungswirtschaft die IT neben den Personalressourcen den prim&#xE4;ren Produktionsfaktor zur Bereitstellung von Diensten darstellt, ist ein Schwerpunkt dieser Veranstaltung die Bestimmung und die Beeinflussung des betriebswirtschaftlichen Nutzens, den Informationssysteme zum Unternehmenserfolg beitragen. Ein wesentlicher Aspekt f&#xFC;r die Erfolgswirkung der Informationssysteme ist dabei die Herausforderung, Gesch&#xE4;fts- und IT-Strategie fortlaufend aufeinander abzustimmen und dieses ï¿½IT Business Alignmentï¿½ auch auf operativer Ebene im Tagesgesch&#xE4;ft umzusetzen, also das Zusammenspiel von IT- und Nicht-IT-Abteilungen zu verstehen und zu gestalten. Insgesamt wird aufgezeigt, dass der optimale Einsatz der Ressource IT im Unternehmen letztlich weniger eine technische Frage des richtigen Systems ist, sondern eine Portfoliobetrachtung erfordert, die sicher stellt, dass die IT im unternehmensspezifischen Kontext gut auf die Gesch&#xE4;ftsprozesse abgestimmt ist und in geeigneter Weise genutzt wird. Die wissenschaftliche Perspektive wird durch Vortr&#xE4;ge von Partnerunternehmen aus der Praxis erg&#xE4;nzt.</summary>
+        <sws>2</sws>
+        <terms>
+            <term>
+                <endtime>20:00</endtime>
+                <repeat>w1 4</repeat>
+                <room>
+                    <UnivISRef type="Room" key="Room.wiai.zentr.zentr.f384" />
+                </room>
+                <starttime>18:00</starttime>
+            </term>
+            <term>
+                <enddate>2010-07-08</enddate>
+                <endtime>18:00</endtime>
+                <exclude>vac</exclude>
+                <repeat>s1</repeat>
+                <room>
+                    <UnivISRef type="Room" key="Room.wiai.zentr.zentr.f381" />
+                </room>
+                <startdate>2010-07-08</startdate>
+                <starttime>16:00</starttime>
+            </term>
+        </terms>
+        <type>V</type>
+    </Lecture>
+    <Person key="Person.wiai.bereic_2.lehrst.weitze">
+        <firstname>Tim</firstname>
+        <id>40546558</id>
+        <lastname>Weitzel</lastname>
+        <lehr>ja</lehr>
+        <lehrtyp>hochsc</lehrtyp>
+        <locations>
+            <location>
+                <email>tim.weitzel@uni-bamberg.de</email>
+                <ort>96045 Bamberg</ort>
+                <office>052</office>
+                <street>Feldkirchenstra&#xDF;e 21</street>
+                <tel>+49-951-863-2870</tel>
+            </location>
+        </locations>
+        <orgname>Lehrstuhl f&#xFC;r Wirtschaftsinformatik, insb. Informationssysteme in Dienstleistungsbereichen</orgname>
+        <orgunits>
+            <orgunit>Fakult&#xE4;t  Wirtschaftsinformatik / Angewandte Informatik</orgunit>
+            <orgunit>Bereich Wirtschaftsinformatik</orgunit>
+            <orgunit>Lehrstuhl f&#xFC;r Wirtschaftsinformatik, insb. Informationssysteme in Dienstleistungsbereichen</orgunit>
+        </orgunits>
+        <title>Prof.  Dr.</title>
+        <visible>ja</visible>
+    </Person>
+    <Person key="Person.wiai.zentr.zentr.schaib">
+        <firstname>Babette</firstname>
+        <id>20254986</id>
+        <lastname>Schaible</lastname>
+        <lehr>nein</lehr>
+        <locations>
+            <location>
+                <email>dekanat.wiai@uni-bamberg.de</email>
+                <fax>0951/863 2802</fax>
+                <ort>96052 Bamberg</ort>
+                <office>089</office>
+                <street>Feldkirchenstra&#xDF;e 21</street>
+                <tel>0951/863 2801</tel>
+                <url>http://www.uni-bamberg.de/wiai/</url>
+            </location>
+        </locations>
+        <orgname>Fakult&#xE4;t  Wirtschaftsinformatik / Angewandte Informatik</orgname>
+        <orgunits>
+            <orgunit>Fakult&#xE4;t  Wirtschaftsinformatik / Angewandte Informatik</orgunit>
+        </orgunits>
+        <visible>ja</visible>
+    </Person>
+
+    <Room key="Room.wiai.zentr.zentr.f384">
+        <address>Feldkirchenstra&#xDF;e 21</address>
+        <contacts>
+            <contact>
+                <UnivISRef type="Person" key="Person.wiai.zentr.zentr.schaib" />
+            </contact>
+        </contacts>
+        <description>Beamer, DVD, Videorekorder</description>
+        <id>29976440</id>
+        <name>Seminarraum</name>
+        <orgname>Fakult&#xE4;t  Wirtschaftsinformatik / Angewandte Informatik</orgname>
+        <orgunits>
+            <orgunit>Fakult&#xE4;t  Wirtschaftsinformatik / Angewandte Informatik</orgunit>
+        </orgunits>
+        <short>F384</short>
+        <size>56</size>
+    </Room>
+    <Room key="Room.wiai.zentr.zentr.f381">
+        <address>Feldkirchenstra&#xDF;e 21</address>
+        <contacts>
+            <contact>
+                <UnivISRef type="Person" key="Person.wiai.zentr.zentr.schaib" />
+            </contact>
+        </contacts>
+        <description>Beamer, DVD, Videorekorder</description>
+        <id>29944538</id>
+        <name>Seminarraum</name>
+        <orgname>Fakult&#xE4;t  Wirtschaftsinformatik / Angewandte Informatik</orgname>
+        <orgunits>
+            <orgunit>Fakult&#xE4;t  Wirtschaftsinformatik / Angewandte Informatik</orgunit>
+        </orgunits>
+        <short>F381</short>
+        <size>48</size>
+    </Room>
+    <Title key="Title.fakult.diplom.haupts.fcherd_2.inform">
+        <parent-title>
+            <UnivISRef type="Title" key="Title.fakult.diplom.haupts.fcherd_2" />
+        </parent-title>
+        <title>Informationssysteme in Dienstleistungsbereichen</title>
+    </Title>
+      <Title key="Title.fakult.diplom.haupts.fcherd_2">
+        <parent-title>
+            <UnivISRef type="Title" key="Title.fakult.diplom.haupts" />
+        </parent-title>
+        <title>Lehrveranstaltungen in Wirtschaftsinformatik</title>
+    </Title>
+    <Title key="Title.fakult.diplom.haupts">
+        <parent-title>
+            <UnivISRef type="Title" key="Title.fakult.diplom" />
+        </parent-title>
+        <title>Master</title>
+    </Title>
+    <Title key="Title.fakult.diplom">
+        <parent-title>
+            <UnivISRef type="Title" key="Title.fakult" />
+        </parent-title>
+        <text>Die Lehrveranstaltungen in den F&#xE4;chern "Betriebswirtschaftslehre", "Volkswirtschaftslehre", "Wirtschaftsmathematik" und "Wirtschaftsp&#xE4;dagogik" sind unter "Diplom-, Bachelor-,Masterstudieng&#xE4;nge Wirtschaftswissenschaften und Bachelor-/Masterstudiengang European Economic Studies (EES)" der Fakult&#xE4;t Sozial- und Wirtschaftswissenschaften, die Lehrverantaltungen in den F&#xE4;chern "Recht", "Statistik" und "Wirtschaftsenglisch" sind unter "Weitere F&#xE4;cher" an der Fakult&#xE4;t Sozial- und Wirtschaftswissenschaften aufgef&#xFC;hrt.&#x0D;&#x0A;&#x0D;&#x0A;Im Rahmen des Studienschwerpunktes "Medieninformatik" sind die Lehrveranstaltungen im Fach "Kommunikationswissenschaften" unter der Fakult&#xE4;t Geistes- und Kulturwissenschaften, die Lehrveranstaltungen in den F&#xE4;chern "Mediendidaktik/-p&#xE4;dagogik" und "Medienpsychologie" sind unter der Fakult&#xE4;t Humanwissenschaften aufgef&#xFC;hrt.</text>
+        <title>Bachelor-/Master-/Diplomstudieng&#xE4;nge Angewandte Informatik, Wirtschaftsinformatik, Wirtschaftsp&#xE4;dagogik mit Schwerpunkt Wirtschaftsinformatik</title>
+    </Title>
+    <Title key="Title.fakult">
+        <text>*Zeittafel*&#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;Sommersemester 01.04.2010 ï¿½ 30.09.2010 (einschl.)&#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;Neueinschreibung: 15.03.2010 ï¿½09.04.2010 (einschl.)&#x0D;&#x0A;&#x0D;&#x0A;|(Die Einschreibfristen f&#xFC;r zulassungsbeschr&#xE4;nkte Studieng&#xE4;nge werden im Zulassungsbescheid mitgeteilt)|&#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;R&#xFC;ckmeldung f&#xFC;r das &#x0D;&#x0A;&#x0D;&#x0A;Wintersemester 2010/2011: 28.06.2010 -16.07.2010&#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;Beginn der Lehrveranstaltungen: 19.04.2010&#x0D;&#x0A;&#x0D;&#x0A;Ende der Lehrveranstaltungen: 24.07.2010&#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;Vorlesungsfreie Zeit:&#x0D;&#x0A;&#x0D;&#x0A;Pfingstferien: &#x09;&#x09;22.05.2010 ï¿½ 25.05.2010 (einschl.)&#x0D;&#x0A;&#x0D;&#x0A;Feiertage:&#x09;&#x09;13.05.2010 (Christi Himmelfahrt) und 03.06.2010 (Fronleichnam)&#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;Beginn der Lehrveranstaltungen Wintersemester 2010/2011: 18.10.2010&#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;</text>
+        <title>Fakult&#xE4;t Wirtschaftsinformatik und Angewandte Informatik</title>
+    </Title>
 </UnivIS>
