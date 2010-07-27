@@ -1,5 +1,6 @@
 package de.unibamberg.itfs.univis.xml;
 
+import de.unibamberg.itfs.univis.xml.util.XMLPrettyPrinter;
 import java.util.LinkedHashSet;
 import java.util.Set;
 import java.util.logging.Level;
@@ -42,21 +43,32 @@ public class UnivIsRefProcessor implements XMLProcessor {
         try {
             // Find all references
             XPathExpression xPathRefNodes = xpath.compile("//UnivISRef");
-            NodeList refNodes = (NodeList) xPathRefNodes.evaluate(doc, XPathConstants.NODESET);
-            // replace references by the originals from the doc root
-            for (int i = 0; i < refNodes.getLength(); i++) {
-                Node n = refNodes.item(i);
-                String type = n.getAttributes().getNamedItem("type").getTextContent();
-                String key = n.getAttributes().getNamedItem("key").getTextContent();
-                XPathExpression xPathReferedNode = xpath.compile("/UnivIS/" + type + "[@key='" + key + "']");
-                Node referencedNode = (Node) xPathReferedNode.evaluate(doc, XPathConstants.NODE);
-                n.getParentNode().replaceChild(referencedNode.cloneNode(true), n);
-                cleanup.add(referencedNode);
-            }
+            NodeList refNodes;
+            
+            // FIXME: This is a real resource hog, since it continues to recurse into nodes that will be replaced anyway.
+            // Referenced nodes from the doc-root should be removed immediatly
+            do {
+                refNodes = (NodeList) xPathRefNodes.evaluate(doc, XPathConstants.NODESET);
+                // replace references by the originals from the doc root
+                for (int i = 0; i < refNodes.getLength(); i++) {
+
+                    Node n = refNodes.item(i);
+
+                    String type = n.getAttributes().getNamedItem("type").getTextContent();
+                    String key = n.getAttributes().getNamedItem("key").getTextContent();
+                    XPathExpression xPathReferedNode = xpath.compile("/UnivIS/" + type + "[@key='" + key + "']");
+
+                    Node referencedNode = (Node) xPathReferedNode.evaluate(doc, XPathConstants.NODE);
+                    n.getParentNode().replaceChild(referencedNode.cloneNode(true), n);
+
+                    cleanup.add(referencedNode);
+                }
+            } while (refNodes.getLength() != 0);
 
         } catch (XPathExpressionException ex) {
             Logger.getLogger(UnivIsRefProcessor.class.getName()).log(Level.SEVERE, null, ex);
         }
+
 
         // Remove referenced Nodes from DocRoot
         if (REMOVE_REFERED_NODES) {

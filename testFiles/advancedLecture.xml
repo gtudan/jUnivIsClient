@@ -1,0 +1,473 @@
+<?xml version="1.0"?>
+<!DOCTYPE UnivIS SYSTEM "http://univis.uni-bamberg.de/univis.dtd">
+<UnivIS version="1.6" semester="2010w">
+<Lecture key="Lecture.sprach.abteil_1.zentr.spanis_1">
+<allfak>ja</allfak>
+<beginners>ja</beginners>
+<benschein>ja</benschein>
+<classification><UnivISRef type="Title" key="Title.zentwiss.sprmed.romani.spanis" /></classification>
+<comment>Verwendbarkeit: Bachelor-Studiengang Romanistik (Prop&#xE4;deutisches Modul RomPrep-S), Master-Studiengang Romanistik (Profilbereich 2: RomSprMA-PS2), Lehramt Spanisch: Gymnasium (Prop&#xE4;deutisches Modul LAMOD-101-26-01-001)</comment>
+<courses>
+<course><UnivISRef type="Lecture" key="Lecture.sprach.abteil_1.zentr.spanis_3" /></course>
+<course><UnivISRef type="Lecture" key="Lecture.sprach.abteil_1.zentr.spanis_2" /></course>
+<course><UnivISRef type="Lecture" key="Lecture.sprach.abteil_1.zentr.spanis_5" /></course>
+</courses>
+<ects>ja</ects>
+<ects_cred>4</ects_cred>
+<id>41036358</id>
+<literature>Con din&#xE1;mica. Spanisch intensiv. Lehrbuch + 3 Audio-CDs. Klett Verlag. ISBN: 978-3-12-515030-0 und Con din&#xE1;mica. Arbeitsbuch. Klett Verlag. ISBN: 978-3-12-515031-7.</literature>
+<name>Spanisch A1 - A2 (Curso preparatorio de espa&#xF1;ol)</name>
+<organizational>Der Kurs richtet sich grunds&#xE4;tzlich an Romanistik- und Lehramtsstudenten sowie an Studenten der Bachelor-Studieng&#xE4;nge, die das Fach Wirtschaftsspanisch belegen m&#xF6;chten. Die W&#xFC;nsche anderer Studenten k&#xF6;nnen nur ber&#xFC;cksichtig werden, wenn in den Kursen Pl&#xE4;tze frei sind. &#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;F&#xFC;r die Teilnahme an diesem Kurs sind keine Spanischvorkenntnisse erforderlich.&#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;Eine Anmeldung ist erforderlich.Ohne Anmeldung ist die Teilnahme an den Kursen nicht m&#xF6;glich. Die Anmeldung ist aber keine Garantie daf&#xFC;r, dass Sie einen Platz an einem bestimmten Kurs bekommen. Die endg&#xFC;ltigen Teilnehmerlisten werden am ersten Unterrichtstag festgelegt, an dem die Anwesenheit sehr wichtig ist. Falls Sie die erste Stunde nicht besuchen k&#xF6;nnen, setzen Sie sich bitte in Kontakt mit uns. F&#xFC;r Studienortwechsler, Erasmusstudenten sowie Studierende, die den Leistungsnachweis zur baldigen Pr&#xFC;fungsanmeldung ben&#xF6;tigen, werden im begrenzten Umfang Pl&#xE4;tze freigehalten. Bei &#xDC;berbuchung des Seminars f&#xE4;llt die Entscheidung &#xFC;ber die Teilnahme in R&#xFC;cksprache mit der Dozentin/dem Dozenten.&#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;An- und Abmeldefrist ist vom 20.09.10 bis 22.10.10 &#xFC;ber das Online-Meldesystem FlexNow. &#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;Maximal 25 Teilnehmer &#x0D;&#x0A;</organizational>
+<orgname>Abteilung Romanische Sprachen</orgname>
+<orgunits>
+<orgunit>Sprachenzentrum</orgunit>
+<orgunit>Abteilung Romanische Sprachen</orgunit>
+</orgunits>
+<summary>Ziel: Aneignung von Sprachkenntnissen die eine elementare Sprachverwendung erm&#xF6;glichen. Nach dem erfolgreichem Besuch des Kurses sollten die Lernenden &#xFC;ber ein Repertoire an sprachlichen Mitteln verf&#xFC;gen, die es ihnen erm&#xF6;glichen, Alltagssituationen mit voraussagbaren Inhalten zu bew&#xE4;ltigen. Die Lernenden m&#xFC;ssen allerdings in der Regel Kompromisse in Bezug auf die Realisierung der Sprechabsicht machen und nach Worten suchen. In nicht-routinem&#xE4;&#xDF;igen Situationen kann es h&#xE4;ufig zu Abbr&#xFC;chen und Missverst&#xE4;ndnissen kommen.&#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;Inhalte: Der Kurs wendet sich an Lernende ohne Vorkenntnisse oder mit wenigen Vorkenntnissen und vermittelt die Grundstrukturen der spanischen Sprache bis Abschluss von Niveau A2 des Gemeinsamen Europ&#xE4;ischen Referenzrahmens. Die vier Fertigkeiten (H&#xF6;ren, Lesen, Sprechen, Schreiben) werden im Unterricht und mittels online-basierten Aufgaben ge&#xFC;bt. Grammatik, Vokabular, Aussprache und Rechtschreibung werden durch kommunikative &#xDC;bungen vermittelt bzw. gelernt.&#x0D;&#x0A;&#x0D;&#x0A;</summary>
+<sws>6</sws>
+<turnout>25</turnout>
+<type>sa</type>
+</Lecture>
+<Lecture key="Lecture.sprach.abteil_1.zentr.spanis_3">
+<dozs>
+<doz><UnivISRef type="Person" key="Person.sprach.abteil_1.zentr.nnlekt_7" /></doz>
+</dozs>
+<id>41087660</id>
+<name>Spanisch A1 - A2 (Curso preparatorio de espa&#xF1;ol)</name>
+<orgname>Abteilung Romanische Sprachen</orgname>
+<orgunits>
+<orgunit>Sprachenzentrum</orgunit>
+<orgunit>Abteilung Romanische Sprachen</orgunit>
+</orgunits>
+<sws>6</sws>
+<turnout>25</turnout>
+<terms>
+<term>
+<endtime>18:00</endtime>
+<repeat>w1 1</repeat>
+<room><UnivISRef type="Room" key="Room.sowi.zentr.zentr.fm008" /></room>
+<starttime>16:00</starttime>
+</term>
+<term>
+<endtime>18:00</endtime>
+<repeat>w1 2</repeat>
+<room><UnivISRef type="Room" key="Room.sowi.zentr.zentr.fm007" /></room>
+<starttime>16:00</starttime>
+</term>
+<term>
+<endtime>18:00</endtime>
+<repeat>w1 3</repeat>
+<room><UnivISRef type="Room" key="Room.sowi.zentr.zentr.f241" /></room>
+<starttime>16:00</starttime>
+</term>
+</terms>
+<type>sa</type>
+</Lecture>
+<Lecture key="Lecture.sprach.abteil_1.zentr.spanis_2">
+<dozs>
+<doz><UnivISRef type="Person" key="Person.sprach.abteil_1.zentr.prezfu" /></doz>
+</dozs>
+<id>41098285</id>
+<name>Spanisch A1 - A2 (Curso preparatorio de espa&#xF1;ol)</name>
+<orgname>Abteilung Romanische Sprachen</orgname>
+<orgunits>
+<orgunit>Sprachenzentrum</orgunit>
+<orgunit>Abteilung Romanische Sprachen</orgunit>
+</orgunits>
+<sws>6</sws>
+<turnout>25</turnout>
+<terms>
+<term>
+<endtime>20:00</endtime>
+<repeat>w1 1</repeat>
+<room><UnivISRef type="Room" key="Room.sprach.multim.multim.u5017" /></room>
+<starttime>18:00</starttime>
+</term>
+<term>
+<endtime>20:00</endtime>
+<repeat>w1 2</repeat>
+<room><UnivISRef type="Room" key="Room.guk.zentr.zentr.u2026" /></room>
+<starttime>18:00</starttime>
+</term>
+<term>
+<endtime>20:00</endtime>
+<repeat>w1 3</repeat>
+<room><UnivISRef type="Room" key="Room.sprach.multim.multim.u5017" /></room>
+<starttime>18:00</starttime>
+</term>
+</terms>
+<type>sa</type>
+</Lecture>
+<Lecture key="Lecture.sprach.abteil_1.zentr.spanis_5">
+<dozs>
+<doz><UnivISRef type="Person" key="Person.sprach.abteil_1.zentr.nnlekt_7" /></doz>
+</dozs>
+<id>41032635</id>
+<name>Spanisch A1 - A2 (Curso preparatorio de espa&#xF1;ol)</name>
+<orgname>Abteilung Romanische Sprachen</orgname>
+<orgunits>
+<orgunit>Sprachenzentrum</orgunit>
+<orgunit>Abteilung Romanische Sprachen</orgunit>
+</orgunits>
+<sws>6</sws>
+<turnout>25</turnout>
+<terms>
+<term>
+<endtime>20:00</endtime>
+<repeat>w1 1</repeat>
+<room><UnivISRef type="Room" key="Room.sowi.zentr.zentr.f302" /></room>
+<starttime>18:00</starttime>
+</term>
+<term>
+<endtime>20:00</endtime>
+<repeat>w1 2</repeat>
+<room><UnivISRef type="Room" key="Room.sowi.zentr.zentr.f302" /></room>
+<starttime>18:00</starttime>
+</term>
+<term>
+<endtime>20:00</endtime>
+<repeat>w1 3</repeat>
+<room><UnivISRef type="Room" key="Room.sowi.zentr.zentr.f241" /></room>
+<starttime>18:00</starttime>
+</term>
+</terms>
+<type>sa</type>
+</Lecture>
+<Lecture key="Lecture.sprach.abteil_1.zentr.tutori">
+<allfak>ja</allfak>
+<beginners>ja</beginners>
+<enddate>2011-01-20</enddate>
+<id>41058799</id>
+<literature>Competencia gramatical en USO A1. Libro + CD. Editorial Edelsa. ISBN: 978-84-7711-497-0 und Competencia gramatical en USO A2. Libro + CD. Editorial Edelsa. ISBN: 978-84-7711-499-4</literature>
+<name>Tutorium: Spanisch A1 - A2 (Curso preparatorio de espa&#xF1;ol)</name>
+<organizational>Das Tutorium wendet sich an die Teilnehmer des Kurses Spanisch A1 &#x96; A2 (Curso preparatorio de espa&#xF1;ol) und dient in erster Linie der Befestigung grundlegender Grammatikstrukturen des Spanischen.&#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;Die Teilnahme am Tutorium ist freiwillig.&#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;Eine Anmeldung ist nicht erforderlich&#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;Maximal 25 Teilnehmer &#x0D;&#x0A;</organizational>
+<orgname>Abteilung Romanische Sprachen</orgname>
+<orgunits>
+<orgunit>Sprachenzentrum</orgunit>
+<orgunit>Abteilung Romanische Sprachen</orgunit>
+</orgunits>
+<parent-lv><UnivISRef type="Lecture" key="Lecture.sprach.abteil_1.zentr.spanis_1" /></parent-lv>
+<startdate>2010-11-04</startdate>
+<summary>Ziel: Befestigung einfacher Strukturen des Spanischen und Verbesserung der grammatischen Korrektheit.</summary>
+<sws>2</sws>
+<turnout>25</turnout>
+<terms>
+<term>
+<endtime>20:00</endtime>
+<repeat>w1 4</repeat>
+<room><UnivISRef type="Room" key="Room.sowi.zentr.zentr.f349" /></room>
+<starttime>18:00</starttime>
+</term>
+</terms>
+<type>tu</type>
+</Lecture>
+<Lecture key="Lecture.guk.roman.romsp._spani_1">
+<allfak>ja</allfak>
+<beginners>ja</beginners>
+<benschein>ja</benschein>
+<classification><UnivISRef type="Title" key="Title.guk.roman.sprach_1.spanis" /></classification>
+<comment>Verwendbarkeit: Bachelor-Studiengang Romanistik (Prop&#xE4;deutisches Modul RomPrep-S), Master-Studiengang Romanistik (Profilbereich 2: RomSprMA-PS2), Lehramt Spanisch: Gymnasium (Prop&#xE4;deutisches Modul LAMOD-101-26-01-001)</comment>
+<courses>
+<course><UnivISRef type="Lecture" key="Lecture.sprach.abteil_1.zentr.spanis_3" /></course>
+<course><UnivISRef type="Lecture" key="Lecture.sprach.abteil_1.zentr.spanis_2" /></course>
+<course><UnivISRef type="Lecture" key="Lecture.sprach.abteil_1.zentr.spanis_5" /></course>
+</courses>
+<ects>ja</ects>
+<ects_cred>4</ects_cred>
+<id>41039227</id>
+<import_parent_id>41036358</import_parent_id>
+<literature>Con din&#xE1;mica. Spanisch intensiv. Lehrbuch + 3 Audio-CDs. Klett Verlag. ISBN: 978-3-12-515030-0 und Con din&#xE1;mica. Arbeitsbuch. Klett Verlag. ISBN: 978-3-12-515031-7.</literature>
+<name>Spanisch A1 - A2 (Curso preparatorio de espa&#xF1;ol)</name>
+<organizational>Der Kurs richtet sich grunds&#xE4;tzlich an Romanistik- und Lehramtsstudenten sowie an Studenten der Bachelor-Studieng&#xE4;nge, die das Fach Wirtschaftsspanisch belegen m&#xF6;chten. Die W&#xFC;nsche anderer Studenten k&#xF6;nnen nur ber&#xFC;cksichtig werden, wenn in den Kursen Pl&#xE4;tze frei sind. &#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;F&#xFC;r die Teilnahme an diesem Kurs sind keine Spanischvorkenntnisse erforderlich.&#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;Eine Anmeldung ist erforderlich.Ohne Anmeldung ist die Teilnahme an den Kursen nicht m&#xF6;glich. Die Anmeldung ist aber keine Garantie daf&#xFC;r, dass Sie einen Platz an einem bestimmten Kurs bekommen. Die endg&#xFC;ltigen Teilnehmerlisten werden am ersten Unterrichtstag festgelegt, an dem die Anwesenheit sehr wichtig ist. Falls Sie die erste Stunde nicht besuchen k&#xF6;nnen, setzen Sie sich bitte in Kontakt mit uns. F&#xFC;r Studienortwechsler, Erasmusstudenten sowie Studierende, die den Leistungsnachweis zur baldigen Pr&#xFC;fungsanmeldung ben&#xF6;tigen, werden im begrenzten Umfang Pl&#xE4;tze freigehalten. Bei &#xDC;berbuchung des Seminars f&#xE4;llt die Entscheidung &#xFC;ber die Teilnahme in R&#xFC;cksprache mit der Dozentin/dem Dozenten.&#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;An- und Abmeldefrist ist vom 20.09.10 bis 22.10.10 &#xFC;ber das Online-Meldesystem FlexNow. &#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;Maximal 25 Teilnehmer &#x0D;&#x0A;</organizational>
+<orgname>Lehrstuhl f&#xFC;r Romanische Sprachwissenschaft</orgname>
+<orgunits>
+<orgunit>Fakult&#xE4;t Geistes- und Kulturwissenschaften</orgunit>
+<orgunit>Institut f&#xFC;r Romanistik</orgunit>
+<orgunit>Lehrstuhl f&#xFC;r Romanische Sprachwissenschaft</orgunit>
+</orgunits>
+<summary>Ziel: Aneignung von Sprachkenntnissen die eine elementare Sprachverwendung erm&#xF6;glichen. Nach dem erfolgreichem Besuch des Kurses sollten die Lernenden &#xFC;ber ein Repertoire an sprachlichen Mitteln verf&#xFC;gen, die es ihnen erm&#xF6;glichen, Alltagssituationen mit voraussagbaren Inhalten zu bew&#xE4;ltigen. Die Lernenden m&#xFC;ssen allerdings in der Regel Kompromisse in Bezug auf die Realisierung der Sprechabsicht machen und nach Worten suchen. In nicht-routinem&#xE4;&#xDF;igen Situationen kann es h&#xE4;ufig zu Abbr&#xFC;chen und Missverst&#xE4;ndnissen kommen.&#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;Inhalte: Der Kurs wendet sich an Lernende ohne Vorkenntnisse oder mit wenigen Vorkenntnissen und vermittelt die Grundstrukturen der spanischen Sprache bis Abschluss von Niveau A2 des Gemeinsamen Europ&#xE4;ischen Referenzrahmens. Die vier Fertigkeiten (H&#xF6;ren, Lesen, Sprechen, Schreiben) werden im Unterricht und mittels online-basierten Aufgaben ge&#xFC;bt. Grammatik, Vokabular, Aussprache und Rechtschreibung werden durch kommunikative &#xDC;bungen vermittelt bzw. gelernt.&#x0D;&#x0A;&#x0D;&#x0A;</summary>
+<sws>6</sws>
+<turnout>25</turnout>
+<type>sa</type>
+</Lecture>
+<Person key="Person.sprach.abteil_1.zentr.nnlekt_7">
+<firstname>B&#xE1;rbara</firstname>
+<id>20815934</id>
+<lastname>Vald&#xE9;s Brizuela</lastname>
+<lehr>ja</lehr>
+<lehraufg>Spanisch</lehraufg>
+<lehrtyp>lektor</lehrtyp>
+<locations>
+<location>
+<email>barbara.valdes@uni-bamberg.de</email>
+<office>103</office>
+<street>Weide 18</street>
+<tel>0951/863-1239</tel>
+<url>http://www.uni-bamberg.de/sz</url>
+</location>
+</locations>
+<orgname>Abteilung Romanische Sprachen</orgname>
+<orgunits>
+<orgunit>Sprachenzentrum</orgunit>
+<orgunit>Abteilung Romanische Sprachen</orgunit>
+</orgunits>
+<visible>ja</visible>
+</Person>
+<Person key="Person.sprach.abteil_1.zentr.prezfu">
+<firstname>Soraya</firstname>
+<id>40988786</id>
+<lastname>P&#xE9;rez Fuertes</lastname>
+<lehr>ja</lehr>
+<lehraufg>Spanisch</lehraufg>
+<lehrtyp>lektor</lehrtyp>
+<locations>
+<location>
+<email>soraya.perez-fuertes@uni-bamberg.de</email>
+<ort>96052 Bamberg</ort>
+<office>004</office>
+<street>Luitpoldstra&#xDF;e 5</street>
+<tel>0951/863-2155</tel>
+<url>http://www.uni-bamberg.de/sz</url>
+</location>
+</locations>
+<orgname>Abteilung Romanische Sprachen</orgname>
+<orgunits>
+<orgunit>Sprachenzentrum</orgunit>
+<orgunit>Abteilung Romanische Sprachen</orgunit>
+</orgunits>
+<visible>ja</visible>
+</Person>
+<Person key="Person.sowi.zentr.zentr.stiegm">
+<firstname>Monika</firstname>
+<id>49907678</id>
+<lastname>Stieg</lastname>
+<lehr>nein</lehr>
+<locations>
+<location>
+<email>monika.stieg@uni-bamberg.de</email>
+<fax>0951/863 2502</fax>
+<ort>96045  Bamberg</ort>
+<office>131</office>
+<street>Feldkirchenstra&#xDF;e 21</street>
+<tel>0951/863 2551</tel>
+</location>
+</locations>
+<orgname>Fakult&#xE4;t Sozial- und Wirtschaftswissenschaften</orgname>
+<orgunits>
+<orgunit>Fakult&#xE4;t Sozial- und Wirtschaftswissenschaften</orgunit>
+</orgunits>
+<visible>ja</visible>
+</Person>
+<Person key="Person.guk.roman.romani.milanc">
+<firstname>Carlo</firstname>
+<id>29934440</id>
+<lastname>Milan</lastname>
+<lehr>ja</lehr>
+<lehraufg>Sprachwissenschaft</lehraufg>
+<lehrtyp>ausser</lehrtyp>
+<locations>
+<location>
+<email>carlo.milan@uni-bamberg.de</email>
+<ort>96045 Bamberg</ort>
+<office>025</office>
+<street>An der Universit&#xE4;t 5</street>
+<tel>0951/863 2152</tel>
+<url>http://www.uni-bamberg.de/~ba4sl1/marb.htm</url>
+</location>
+</locations>
+<orgname>Romanische Sprachwissenschaft</orgname>
+<orgunits>
+<orgunit>Fakult&#xE4;t Geistes- und Kulturwissenschaften</orgunit>
+<orgunit>Institut f&#xFC;r Romanistik</orgunit>
+<orgunit>Romanische Sprachwissenschaft</orgunit>
+</orgunits>
+<title>Prof.  Dr.</title>
+<visible>ja</visible>
+<work>Leiter des Sprachlabors</work>
+<zweitmgl>zentwiss</zweitmgl>
+</Person>
+<Person key="Person.rechen.rechen_6.zentr.maimar">
+<atitle>M.A. Germ</atitle>
+<firstname>Martin</firstname>
+<id>20627490</id>
+<lastname>Mai</lastname>
+<lehr>nein</lehr>
+<locations>
+<location>
+<email>itfl-service@uni-bamberg.de</email>
+<fax>0951/863 1302</fax>
+<ort>96045 Bamberg</ort>
+<office>RZ 1.18</office>
+<street>Feldkirchenstr. 21</street>
+<tel>0951/ 863 1338</tel>
+</location>
+</locations>
+<orgname>Rechenzentrum/IT f&#xFC;r die Lehre (ITfL)</orgname>
+<orgunits>
+<orgunit>Rechenzentrum</orgunit>
+<orgunit>Rechenzentrum/IT f&#xFC;r die Lehre (ITfL)</orgunit>
+</orgunits>
+<visible>ja</visible>
+</Person>
+<Person key="Person.guk.zentr.zentr.streit">
+<firstname>Hildegund</firstname>
+<id>20692842</id>
+<lastname>Streit</lastname>
+<lehr>nein</lehr>
+<locations>
+<location>
+<email>hildegund.streit@uni-bamberg.de</email>
+<ort>96045 Bamberg</ort>
+<office>103</office>
+<street>An der Universit&#xE4;t 7</street>
+<tel>0951/863-2242</tel>
+</location>
+</locations>
+<orgname>Fakult&#xE4;t Geistes- und Kulturwissenschaften</orgname>
+<orgunits>
+<orgunit>Fakult&#xE4;t Geistes- und Kulturwissenschaften</orgunit>
+</orgunits>
+<visible>ja</visible>
+<work>Raumplanerin der Fakult&#xE4;t Geistes- und Kulturwissenschaften</work>
+</Person>
+<Room key="Room.sowi.zentr.zentr.fm008">
+<address>Feldkirchenstra&#xDF;e 21/Alte Mensa</address>
+<contacts>
+<contact><UnivISRef type="Person" key="Person.sowi.zentr.zentr.stiegm" /></contact>
+</contacts>
+<description>Beamer, DVD</description>
+<id>21031317</id>
+<name>Seminarraum</name>
+<orgname>Fakult&#xE4;t Sozial- und Wirtschaftswissenschaften</orgname>
+<orgunits>
+<orgunit>Fakult&#xE4;t Sozial- und Wirtschaftswissenschaften</orgunit>
+</orgunits>
+<short>FMA008</short>
+<size>26</size>
+</Room>
+<Room key="Room.sowi.zentr.zentr.fm007">
+<address>Feldkirchenstra&#xDF;e 21/Alte Mensa</address>
+<contacts>
+<contact><UnivISRef type="Person" key="Person.sowi.zentr.zentr.stiegm" /></contact>
+</contacts>
+<description>Beamer, DVD</description>
+<id>21065662</id>
+<name>Seminarraum</name>
+<orgname>Fakult&#xE4;t Sozial- und Wirtschaftswissenschaften</orgname>
+<orgunits>
+<orgunit>Fakult&#xE4;t Sozial- und Wirtschaftswissenschaften</orgunit>
+</orgunits>
+<short>FMA007</short>
+<size>26</size>
+</Room>
+<Room key="Room.sowi.zentr.zentr.f241">
+<address>Feldkirchenstra&#xDF;e 21</address>
+<contacts>
+<contact><UnivISRef type="Person" key="Person.sowi.zentr.zentr.stiegm" /></contact>
+</contacts>
+<description>Beamer, DVD, Videorekorder</description>
+<id>49919716</id>
+<name>Seminarraum</name>
+<orgname>Fakult&#xE4;t Sozial- und Wirtschaftswissenschaften</orgname>
+<orgunits>
+<orgunit>Fakult&#xE4;t Sozial- und Wirtschaftswissenschaften</orgunit>
+</orgunits>
+<short>F241</short>
+<size>40</size>
+</Room>
+<Room key="Room.sprach.multim.multim.u5017">
+<address>An der Universit&#xE4;t 5</address>
+<contacts>
+<contact><UnivISRef type="Person" key="Person.guk.roman.romani.milanc" /></contact>
+<contact><UnivISRef type="Person" key="Person.rechen.rechen_6.zentr.maimar" /></contact>
+</contacts>
+<description>Multimedia PC Unterrichtsraum</description>
+<id>29930884</id>
+<name>Sprachlabor</name>
+<orgname>Multimedia-Sprachlabor</orgname>
+<orgunits>
+<orgunit>Sprachenzentrum</orgunit>
+<orgunit>Multimedia-Sprachlabor</orgunit>
+</orgunits>
+<short>U5/017</short>
+<size>40</size>
+<url>http://www.uni-bamberg.de/guk/sprachlabor</url>
+</Room>
+<Room key="Room.guk.zentr.zentr.u2026">
+<address>An der Universit&#xE4;t 2 (Ostfl&#xFC;gel)</address>
+<contacts>
+<contact><UnivISRef type="Person" key="Person.guk.zentr.zentr.streit" /></contact>
+</contacts>
+<description>TV, DVD, Video, Overhead</description>
+<id>29999140</id>
+<name>H&#xF6;rsaal 2</name>
+<orgname>Fakult&#xE4;t Geistes- und Kulturwissenschaften</orgname>
+<orgunits>
+<orgunit>Fakult&#xE4;t Geistes- und Kulturwissenschaften</orgunit>
+</orgunits>
+<short>U2/026</short>
+<size>30</size>
+</Room>
+<Room key="Room.sowi.zentr.zentr.f302">
+<address>Feldkirchenstra&#xDF;e 21</address>
+<contacts>
+<contact><UnivISRef type="Person" key="Person.sowi.zentr.zentr.stiegm" /></contact>
+</contacts>
+<description>Beamer, DVD, Videorekorder</description>
+<id>29999593</id>
+<name>Seminarraum</name>
+<orgname>Fakult&#xE4;t Sozial- und Wirtschaftswissenschaften</orgname>
+<orgunits>
+<orgunit>Fakult&#xE4;t Sozial- und Wirtschaftswissenschaften</orgunit>
+</orgunits>
+<short>F302</short>
+<size>30</size>
+</Room>
+<Room key="Room.sowi.zentr.zentr.f349">
+<address>Feldkirchenstra&#xDF;e 21</address>
+<contacts>
+<contact><UnivISRef type="Person" key="Person.sowi.zentr.zentr.stiegm" /></contact>
+</contacts>
+<description>Overhead</description>
+<id>20379057</id>
+<name>Seminarraum</name>
+<orgname>Fakult&#xE4;t Sozial- und Wirtschaftswissenschaften</orgname>
+<orgunits>
+<orgunit>Fakult&#xE4;t Sozial- und Wirtschaftswissenschaften</orgunit>
+</orgunits>
+<short>F350</short>
+<size>40</size>
+</Room>
+<Title key="Title.zentwiss.sprmed.romani.spanis">
+<parent-title><UnivISRef type="Title" key="Title.zentwiss.sprmed.romani" /></parent-title>
+<title>Spanisch und Wirtschaftsspanisch</title>
+</Title>
+<Title key="Title.guk.roman.sprach_1.spanis">
+<parent-title><UnivISRef type="Title" key="Title.guk.roman.sprach_1" /></parent-title>
+<title>Spanisch</title>
+</Title>
+<Title key="Title.zentwiss.sprmed.romani">
+<parent-title><UnivISRef type="Title" key="Title.zentwiss.sprmed" /></parent-title>
+<title>Romanische Sprachen</title>
+</Title>
+<Title key="Title.guk.roman.sprach_1">
+<parent-title><UnivISRef type="Title" key="Title.guk.roman" /></parent-title>
+<title>Sprachpraktische Ausbildung</title>
+</Title>
+<Title key="Title.zentwiss.sprmed">
+<parent-title><UnivISRef type="Title" key="Title.zentwiss" /></parent-title>
+<title>Sprachenzentrum</title>
+</Title>
+<Title key="Title.guk.roman">
+<parent-title><UnivISRef type="Title" key="Title.guk" /></parent-title>
+<title>Romanistik</title>
+</Title>
+<Title key="Title.zentwiss">
+<text>*Zeittafel*&#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;Wintersemester 2010/2011: 01.10.2010 - 31.03.2011 (einschl.)&#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;Neueinschreibung: 30.08.2010 - 08.10.2010 (einschl.)&#x0D;&#x0A;(Die Einschreibfristen f&#xFC;r zulassungsbeschr&#xE4;nkte Studieng&#xE4;nge werden im Zulassungsbescheid mitgeteilt)&#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;R&#xFC;ckmeldung f&#xFC;r das &#x0D;&#x0A;Sommersemester 2011: 24.01.2011 - 11.02.2011 &#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;Beginn der Lehrveranstaltungen: 18.10.2010&#x0D;&#x0A;&#x0D;&#x0A;Ende der Lehrveranstaltungen: 12.02.2011&#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;Vorlesungsfreie Zeit: &#x0D;&#x0A;&#x0D;&#x0A;Weihnachtsferien: 24.12.2010 - 06.01.2011 (einschl.)&#x0D;&#x0A;&#x0D;&#x0A;Feiertage: Tag der Deutschen Einheit (03.10.2010,) Allerheiligen (01.11.2010)&#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;Beginn der Lehrveranstaltungen Sommersemester 2011: 02.05.2011&#x0D;&#x0A;</text>
+<title>Zentrale und wissenschaftliche Einrichtungen</title>
+</Title>
+<Title key="Title.guk">
+<text>*Zeittafel*&#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;Wintersemester 2010/2011: 01.10.2010 - 31.03.2011 (einschl.)&#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;Neueinschreibung: 30.08.2010 - 08.10.2010 (einschl.)&#x0D;&#x0A;(Die Einschreibfristen f&#xFC;r zulassungsbeschr&#xE4;nkte Studieng&#xE4;nge werden im Zulassungsbescheid mitgeteilt)&#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;R&#xFC;ckmeldung f&#xFC;r das &#x0D;&#x0A;Sommersemester 2011: 24.01.2011 - 11.02.2011 &#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;Beginn der Lehrveranstaltungen: 18.10.2010&#x0D;&#x0A;&#x0D;&#x0A;Ende der Lehrveranstaltungen: 12.02.2011&#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;Vorlesungsfreie Zeit: &#x0D;&#x0A;&#x0D;&#x0A;Weihnachtsferien: 24.12.2010 - 06.01.2011 (einschl.)&#x0D;&#x0A;&#x0D;&#x0A;Feiertage: Tag der Deutschen Einheit (03.10.2010,) Allerheiligen (01.11.2010)&#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;Beginn der Lehrveranstaltungen Sommersemester 2011: 02.05.2011&#x0D;&#x0A;</text>
+<title>Fakult&#xE4;t Geistes- und Kulturwissenschaften</title>
+</Title>
+</UnivIS>
