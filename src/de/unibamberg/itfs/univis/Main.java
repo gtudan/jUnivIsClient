@@ -25,6 +25,7 @@ public class Main {
     public static void main(String[] args) throws Exception {
 
         File file = new File("testFiles/allocations.xml");
+
         Document doc = new XMLParser().loadXml(file);
 
         NodeList nl = doc.getDocumentElement().getChildNodes();
@@ -36,8 +37,11 @@ public class Main {
             Unmarshaller um = context.createUnmarshaller();
 
             Allocation alloc = (Allocation) um.unmarshal(n);
+
             System.out.println(alloc.getTitle());
 
         }
+
+
     }
 }

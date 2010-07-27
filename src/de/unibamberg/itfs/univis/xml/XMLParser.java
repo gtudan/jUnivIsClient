@@ -30,6 +30,8 @@ public class XMLParser {
     private List<XMLProcessor> preProcessors = new ArrayList();
 
     public XMLParser() {
+        //NOTE: the intendProcessor is quiet expensive. Since Univis does
+        //not intend its output, it might not be needed.
         this.preProcessors.add(new IntendRemovingProcessor());
         this.preProcessors.add(new UnivIsRefProcessor());
     }

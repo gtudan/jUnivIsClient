@@ -67,11 +67,11 @@ public class Term {
     }
 
     @XmlElement(name="enddate")
-    private void setEndDateString(String endTime) {
+    private void setEndDateString(String endDate) {
         try {
-            this.endDate = DateParser.stringToDate(endTime);
+            this.endDate = DateParser.stringToDate(endDate);
         } catch (ParseException ex) {
-            Logger.getLogger(Term.class.getName()).log(Level.SEVERE, "Could not parse endTime:" + startTime, ex);
+            Logger.getLogger(Term.class.getName()).log(Level.SEVERE, "Could not parse endTime:" + startDate, ex);
         }
     }
 
