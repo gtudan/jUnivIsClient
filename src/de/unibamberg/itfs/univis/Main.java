@@ -4,14 +4,8 @@
  */
 package de.unibamberg.itfs.univis;
 
-import de.unibamberg.itfs.univis.domain.Allocation;
-import de.unibamberg.itfs.univis.xml.XMLParser;
-import java.io.File;
-import javax.xml.bind.JAXBContext;
-import javax.xml.bind.Unmarshaller;
-import org.w3c.dom.Document;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
+import de.unibamberg.itfs.univis.domain.Lecture;
+import java.util.List;
 
 /**
  *
@@ -23,25 +17,15 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) throws Exception {
+        // this should be autoinjected by grails in production....
+        UnivIsConnection conn = new UnivIsConnection("http://univis.uni-bamberg.de");
+        
+        UnivIsQuery q = conn.buildQuery(Lecture.class);
+        q.addParameter("name", "--Seminar / Proseminar II / Übung");
+       // q.setSemester("2010w");
+        List list = q.execute();
 
-        File file = new File("testFiles/allocations.xml");
-
-        Document doc = new XMLParser().loadXml(file);
-
-        NodeList nl = doc.getDocumentElement().getChildNodes();
-
-        for (int i = 0; i < nl.getLength(); i++) {
-            Node n = nl.item(i);
-            JAXBContext context = JAXBContext.newInstance(Class.forName("de.unibamberg.itfs.univis.domain.Allocation"));
-
-            Unmarshaller um = context.createUnmarshaller();
-
-            Allocation alloc = (Allocation) um.unmarshal(n);
-
-            System.out.println(alloc.getTitle());
-
-        }
-
-
+        System.out.println(list.size());
+        System.out.println(list.get(0).getClass().getSimpleName() + ((Lecture) list.get(0)).getKey());
     }
 }

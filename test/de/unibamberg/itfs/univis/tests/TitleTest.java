@@ -26,7 +26,7 @@ public class TitleTest {
         Document doc = new XMLParser().loadXml(file);
         NodeList nl = doc.getDocumentElement().getElementsByTagName("Title");
 
-        JAXBContext context = JAXBContext.newInstance(Title.class);
+        JAXBContext context = JAXBContext.newInstance("de.unibamberg.itfs.univis.domain");
         Unmarshaller um = context.createUnmarshaller();
 
         for (int i = 0; i < nl.getLength(); i++) {

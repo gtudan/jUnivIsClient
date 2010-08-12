@@ -1,0 +1,13 @@
+#A list of Jaxb annotated classes
+Allocation
+Contact
+Course
+Doz
+Lecture
+Location
+ParentLecture
+Person
+Room
+RoomEntry
+Term
+Title

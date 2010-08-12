@@ -28,7 +28,7 @@ public class AllocationTest {
         Document doc = new XMLParser().loadXml(file);
         NodeList nl = doc.getDocumentElement().getElementsByTagName("Allocation");
 
-        JAXBContext context = JAXBContext.newInstance(Allocation.class);
+        JAXBContext context = JAXBContext.newInstance("de.unibamberg.itfs.univis.domain");
         Unmarshaller um = context.createUnmarshaller();
 
         for (int i = 0; i < nl.getLength(); i++) {

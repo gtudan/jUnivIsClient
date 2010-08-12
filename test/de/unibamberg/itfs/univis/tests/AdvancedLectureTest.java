@@ -34,7 +34,7 @@ public class AdvancedLectureTest {
         Document doc = new XMLParser().loadXml(file);
         NodeList nl = doc.getDocumentElement().getElementsByTagName("Lecture");
 
-        JAXBContext context = JAXBContext.newInstance(Lecture.class);
+        JAXBContext context = JAXBContext.newInstance("de.unibamberg.itfs.univis.domain");
         Unmarshaller um = context.createUnmarshaller();
 
         for (int i=0; i<nl.getLength();i++) {
@@ -113,5 +113,4 @@ public class AdvancedLectureTest {
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
         assertEquals("2011-01-20",sdf.format(childLecture.getEndDate()));
     }
-
 }
