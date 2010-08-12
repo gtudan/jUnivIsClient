@@ -17,6 +17,11 @@ public abstract class UnivIsEntity {
     @XmlElement(name = "orgname")
     private String orgName;
 
+    @XmlElementWrapper(name="orgunits")
+    @XmlElement(name="orgunit")
+    String[] orgUnits;
+
+
     public long getId() {
         return id;
     }
@@ -48,7 +53,5 @@ public abstract class UnivIsEntity {
     public void setOrgUnits(String[] orgUnits) {
         this.orgUnits = orgUnits;
     }
-    @XmlElementWrapper(name="orgunits")
-    @XmlElement(name="orgunit")
-    String[] orgUnits;
+
 }

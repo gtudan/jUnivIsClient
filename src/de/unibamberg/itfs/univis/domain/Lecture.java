@@ -60,7 +60,7 @@ public class Lecture extends UnivIsEntity {
     private String origin;
 
     // Is this a copy of another univis lecture?
-    @XmlElement
+    @XmlElement(name="import_parent_id")
     private long importParentID;
     @XmlElement
     private List<Term> terms;

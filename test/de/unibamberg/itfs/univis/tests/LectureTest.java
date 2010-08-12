@@ -27,7 +27,7 @@ public class LectureTest {
         Document doc = new XMLParser().loadXml(file);
         NodeList nl = doc.getDocumentElement().getElementsByTagName("Lecture");
 
-        JAXBContext context = JAXBContext.newInstance(Lecture.class);
+        JAXBContext context = JAXBContext.newInstance("de.unibamberg.itfs.univis.domain");
         Unmarshaller um = context.createUnmarshaller();
 
         for (int i = 0; i < nl.getLength(); i++) {
