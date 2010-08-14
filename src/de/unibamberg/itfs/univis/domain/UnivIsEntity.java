@@ -54,4 +54,13 @@ public abstract class UnivIsEntity {
         this.orgUnits = orgUnits;
     }
 
+    @Override
+    public String toString(){
+        if (this.key != null) {
+            return this.getKey();
+        } else {
+            return "Unknown " + this.getClass().getSimpleName();
+        }
+    }
+
 }
