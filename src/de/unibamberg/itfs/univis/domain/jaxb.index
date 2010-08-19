@@ -2,6 +2,7 @@
 Allocation
 Contact
 Course
+Department
 Doz
 Lecture
 Location
@@ -11,3 +12,4 @@ Room
 RoomEntry
 Term
 Title
+
