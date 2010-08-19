@@ -7,12 +7,14 @@ package de.unibamberg.itfs.univis.domain;
 
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
-
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlAccessType;
 /**
  *
  * @author gtudan
  */
 @XmlRootElement(name="Location")
+@XmlAccessorType(XmlAccessType.FIELD)
 public class Location {
     @XmlElement
     String office;
