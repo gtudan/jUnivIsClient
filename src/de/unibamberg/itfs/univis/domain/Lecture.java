@@ -7,6 +7,8 @@ import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.xml.bind.annotation.*;
+import java.util.Collections;
+import java.util.ArrayList;
 
 /**
  *
@@ -345,6 +347,21 @@ public class Lecture extends UnivIsEntity {
 
     public void setStartDate(Date startDate) {
         this.startDate = startDate;
+    }
+    
+    /**
+     * Convenience-Method for accessing Doz as Persons
+     */
+    public List<Person> getLecturersAsPersons(){
+    	List<Person> result = new ArrayList<Person>();
+    	
+    	if (this.lecturers != null) {
+    		for (Doz doz : this.lecturers) {
+    			result.add(doz.getPerson());
+    		}
+    	}
+    	
+    	return Collections.unmodifiableList(result);
     }
 
 
