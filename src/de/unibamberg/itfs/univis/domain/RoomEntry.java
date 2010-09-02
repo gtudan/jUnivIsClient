@@ -3,6 +3,8 @@ package de.unibamberg.itfs.univis.domain;
 import javax.xml.bind.annotation.*;
 
 /**
+ * Wrapper for a room
+ * Used in Term
  *
  * @author gtudan
  */
