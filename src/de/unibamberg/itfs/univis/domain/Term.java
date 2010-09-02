@@ -108,7 +108,9 @@ public class Term {
     }
 
     public Room getRoom() {
-        return room.getRoom();
+    	if (room != null) {
+        	return room.getRoom();
+        } else return null;
     }
 
     public void setRoom(Room room) {
