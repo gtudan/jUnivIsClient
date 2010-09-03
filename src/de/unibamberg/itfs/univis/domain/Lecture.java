@@ -64,7 +64,8 @@ public class Lecture extends UnivIsEntity {
     // Is this a copy of another univis lecture?
     @XmlElement(name="import_parent_id")
     private long importParentID;
-    @XmlElement
+    @XmlElementWrapper(name="terms")
+    @XmlElement(name="term")
     private List<Term> terms;
 
     //Private void alternative start/end dates (does not match semester)

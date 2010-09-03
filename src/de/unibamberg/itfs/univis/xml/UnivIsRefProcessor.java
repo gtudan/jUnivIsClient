@@ -3,8 +3,7 @@ package de.unibamberg.itfs.univis.xml;
 import de.unibamberg.itfs.univis.xml.util.XMLPrettyPrinter;
 import java.util.LinkedHashSet;
 import java.util.Set;
-import java.util.logging.Level;
-import java.util.logging.Logger;
+import org.apache.log4j.Logger;
 import javax.xml.xpath.XPath;
 import javax.xml.xpath.XPathConstants;
 import javax.xml.xpath.XPathExpression;
@@ -21,6 +20,7 @@ import org.w3c.dom.NodeList;
 public class UnivIsRefProcessor implements XMLProcessor {
 
     private final boolean REMOVE_REFERED_NODES = true;
+        Logger log = Logger.getLogger(this.getClass().getName());
 
     /**
      * This replaces all UnivIsRefs with the real entities from the document
@@ -35,8 +35,11 @@ public class UnivIsRefProcessor implements XMLProcessor {
      */
     public void process(Document doc) {
 
-        // System.out.println("Document before changing:");
-        // printXML(doc);
+		if (log.isDebugEnabled()) {
+			// This is expensive, so check if it is really necessary
+			log.debug("Document before changing: \n" + XMLPrettyPrinter.printXML(doc));
+		}
+		
         Set<Node> cleanup = new LinkedHashSet<Node>();
         XPath xpath = XPathFactory.newInstance().newXPath();
 
@@ -66,7 +69,7 @@ public class UnivIsRefProcessor implements XMLProcessor {
             } while (refNodes.getLength() != 0);
 
         } catch (XPathExpressionException ex) {
-            Logger.getLogger(UnivIsRefProcessor.class.getName()).log(Level.SEVERE, null, ex);
+            log.error(ex);
         }
 
 
@@ -77,7 +80,9 @@ public class UnivIsRefProcessor implements XMLProcessor {
             }
         }
 
-//        System.out.println("Document after changing:");
-//        XMLPrettyPrinter.printXML(doc);
+		if (log.isDebugEnabled()) {
+			// This is expensive, so check if it is really necessary
+			log.debug("Document after changing: \n" + XMLPrettyPrinter.printXML(doc));
+		}
     }
 }

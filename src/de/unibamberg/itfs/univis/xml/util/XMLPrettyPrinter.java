@@ -18,7 +18,7 @@ import org.w3c.dom.Document;
  */
 public class XMLPrettyPrinter {
 
-    public static void printXML(Document doc) {
+    public static String printXML(Document doc) {
         StringWriter out = new StringWriter();
         Source source = new DOMSource(doc);
         Result result = new StreamResult(out);
@@ -34,6 +34,6 @@ public class XMLPrettyPrinter {
             Logger.getLogger(XMLPrettyPrinter.class.getName()).log(Level.SEVERE, null, ex);
         }
 
-        System.out.println(out.toString());
+       return out.toString();
     }
 }
