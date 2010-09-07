@@ -27,9 +27,32 @@ import org.xml.sax.SAXException;
  */
 public class XMLParser {
 
+    // JAXB does some validation, so no need to do it twice...
+    private final boolean VALIDATION = false;
+    
     private List<XMLProcessor> preProcessors = new ArrayList();
+    private final DocumentBuilderFactory dbf;
 
     public XMLParser() {
+        dbf = DocumentBuilderFactory.newInstance();
+        
+        if (VALIDATION == false) {
+            // Turn off validation and loading dtd
+            // Still, JAXB might validate and load later on
+            dbf.setValidating(false);
+            
+            try {
+                dbf.setFeature("http://xml.org/sax/features/validation", false);
+                dbf.setFeature("http://xml.org/sax/features/external-general-entities", false);
+                dbf.setFeature("http://xml.org/sax/features/external-parameter-entities", false);
+                dbf.setFeature("http://apache.org/xml/features/nonvalidating/load-dtd-grammar", false);
+                dbf.setFeature("http://apache.org/xml/features/nonvalidating/load-external-dtd", false);
+            } catch (ParserConfigurationException ex) {
+                String msg = "A problem occured while configuring the docBuilder.";
+                Logger.getLogger(XMLParser.class.getName()).log(Level.SEVERE, msg, ex);
+            }            
+        }
+    
         //NOTE: the intendProcessor is quiet expensive. Since Univis does
         //not intend its output, it might not be needed.
         this.preProcessors.add(new IntendRemovingProcessor());
@@ -80,7 +103,7 @@ public class XMLParser {
         DocumentBuilder docB;
         Document doc = null;
         try {
-            docB = DocumentBuilderFactory.newInstance().newDocumentBuilder();
+            docB = this.dbf.newDocumentBuilder();
             doc = docB.parse(is);
         } catch (ParserConfigurationException ex) {
             String msg = "A problem occured while configuring the docBuilder.";
