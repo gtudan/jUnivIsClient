@@ -16,7 +16,7 @@ public class DateParser {
     private final static SimpleDateFormat SDF_DATE = new SimpleDateFormat("yyyy-MM-dd");
 
     public static String dateToString(Date date) {
-        if (date != null) {
+        if (date != null) {           
             return SDF_DATE.format(date);
         } else {
             return "";
@@ -36,6 +36,7 @@ public class DateParser {
     }
 
     public static Date stringToTime(String string) throws ParseException {
+        string =  string.replace('.',':');
         return SDF_TIME.parse(string);
     }
 }
