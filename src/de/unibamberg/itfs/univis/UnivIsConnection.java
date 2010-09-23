@@ -42,9 +42,9 @@ public class UnivIsConnection {
 
     protected InputStream fetch(String database, String searchString, String semester) throws IOException{
        semester = semester.isEmpty() ? "" : "&sem="+semester;
-       // Replace parenthesis (url-encoded) in searchString with wildcards
+       // Replace parenthesis and slashes (url-encoded) in searchString with wildcards
        // because they seem to be somewhat broken in UnivIs
-       searchString = searchString.replaceAll("%28|%29",".");
+       searchString = searchString.replaceAll("%28|%29|%2F",".");
        
        URL url = new URL(baseURL + "/prg?" + "search=" + database + "&" + searchString + semester + "&show=xml");
        log.debug("Loading " + url.toString());
