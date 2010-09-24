@@ -39,7 +39,7 @@ public class UnivIsRefProcessor implements XMLProcessor {
 			// This is expensive, so check if it is really necessary
 			log.debug("Document before changing: \n" + XMLPrettyPrinter.printXML(doc));
 		}
-		
+		Set<String> ignoredKeyReferences = new LinkedHashSet<String>();
         Set<Node> cleanup = new LinkedHashSet<Node>();
         XPath xpath = XPathFactory.newInstance().newXPath();
 
@@ -59,14 +59,23 @@ public class UnivIsRefProcessor implements XMLProcessor {
 
                     String type = n.getAttributes().getNamedItem("type").getTextContent();
                     String key = n.getAttributes().getNamedItem("key").getTextContent();
+					
+					// if we already failed to resolve this key, skip
+					if (ignoredKeyReferences.contains(key)) continue;
+					
                     XPathExpression xPathReferedNode = xpath.compile("/UnivIS/" + type + "[@key='" + key + "']");
 
                     Node referencedNode = (Node) xPathReferedNode.evaluate(doc, XPathConstants.NODE);
-                    n.getParentNode().replaceChild(referencedNode.cloneNode(true), n);
-
-                    cleanup.add(referencedNode);
+					
+					if (referencedNode != null) {
+						n.getParentNode().replaceChild(referencedNode.cloneNode(true), n);
+						cleanup.add(referencedNode);
+					} else {
+						log.warn("Could not find node of type " + type + " with key " + key + " when trying to resolve references!");
+						ignoredKeyReferences.add(key);
+					}
                 }
-            } while (refNodes.getLength() != 0);
+            } while (refNodes.getLength() != 0 && allRefNodesIgnored(refNodes, ignoredKeyReferences) == false );
 
         } catch (XPathExpressionException ex) {
             log.error(ex);
@@ -85,4 +94,22 @@ public class UnivIsRefProcessor implements XMLProcessor {
 			log.debug("Document after changing: \n" + XMLPrettyPrinter.printXML(doc));
 		}
     }
+	
+	/**
+	 * This checks if the remaining nodes can be resolved or if they are ignored
+	 */
+	private boolean allRefNodesIgnored(NodeList refNodes, Set<String> ignoredKeyReferences) {
+		if (refNodes == null || refNodes.getLength() == 0 || 
+			ignoredKeyReferences == null || ignoredKeyReferences.size() == 0) {
+			return false;
+		} else {
+			for (int i=0;i<refNodes.getLength();i++){
+				String key = refNodes.item(i).getAttributes().getNamedItem("key").getTextContent();
+				if (!ignoredKeyReferences.contains(key)) {
+						return false;
+				} 
+			}
+			return true;
+		}
+	}
 }
