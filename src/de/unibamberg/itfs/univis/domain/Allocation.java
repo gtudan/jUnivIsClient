@@ -1,5 +1,6 @@
 package de.unibamberg.itfs.univis.domain;
 
+import de.unibamberg.itfs.univis.util.DateParser;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -70,9 +71,8 @@ public class Allocation extends UnivIsEntity {
         this.title = title;
     }
 
-        @XmlElement(name = "startdate")
+    @XmlElement(name = "startdate")
     private void setStartdate(String dateString) {
-        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
         GregorianCalendar cal = new GregorianCalendar();
 
         if (this.startDate != null) {
@@ -80,7 +80,7 @@ public class Allocation extends UnivIsEntity {
         }
 
         try {
-            Date newDate = sdf.parse(dateString);
+            Date newDate = DateParser.stringToDate(dateString);
             GregorianCalendar newCal = new GregorianCalendar();
             newCal.setTime(newDate);
             cal.set(newCal.get(Calendar.YEAR), newCal.get(Calendar.MONTH), newCal.get(Calendar.DAY_OF_MONTH));
@@ -93,13 +93,11 @@ public class Allocation extends UnivIsEntity {
     }
 
     private String getStartdate() {
-        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
-        return sdf.format(this.startDate);
+        return DateParser.dateToString(this.startDate);
     }
 
     @XmlElement(name = "starttime")
     private void setStarttime(String timeString) {
-        SimpleDateFormat sdf = new SimpleDateFormat("HH:mm");
         GregorianCalendar cal = new GregorianCalendar();
 
         if (this.startDate != null) {
@@ -109,7 +107,7 @@ public class Allocation extends UnivIsEntity {
         }
 
         try {
-            Date newDate = sdf.parse(timeString);
+            Date newDate = DateParser.stringToTime(timeString);
             GregorianCalendar newCal = new GregorianCalendar();
             newCal.setTime(newDate);
 
@@ -128,13 +126,11 @@ public class Allocation extends UnivIsEntity {
     }
 
     private String getStarttime() {
-        SimpleDateFormat sdf = new SimpleDateFormat("HH:mm");
-        return sdf.format(this.startDate);
+        return DateParser.timeToString(this.startDate);
     }
 
     @XmlElement(name = "enddate")
     private void setEnddate(String dateString) {
-        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
         GregorianCalendar cal = new GregorianCalendar();
 
         if (this.endDate != null) {
@@ -142,7 +138,7 @@ public class Allocation extends UnivIsEntity {
         }
 
         try {
-            Date newDate = sdf.parse(dateString);
+            Date newDate = DateParser.stringToDate(dateString);
             GregorianCalendar newCal = new GregorianCalendar();
             newCal.setTime(newDate);
             cal.set(newCal.get(Calendar.YEAR), newCal.get(Calendar.MONTH), newCal.get(Calendar.DAY_OF_MONTH));
@@ -154,13 +150,11 @@ public class Allocation extends UnivIsEntity {
     }
 
     private String getEnddate() {
-        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
-        return sdf.format(this.endDate);
+        return DateParser.dateToString(this.endDate);
     }
 
     @XmlElement(name = "endtime")
     private void setEndtime(String timeString) {
-        SimpleDateFormat sdf = new SimpleDateFormat("HH:mm");
         GregorianCalendar cal = new GregorianCalendar();
 
         if (this.endDate != null) {
@@ -170,7 +164,7 @@ public class Allocation extends UnivIsEntity {
         }
 
         try {
-            Date newDate = sdf.parse(timeString);
+            Date newDate = DateParser.stringToTime(timeString);
             GregorianCalendar newCal = new GregorianCalendar();
             newCal.setTime(newDate);
 
@@ -189,7 +183,6 @@ public class Allocation extends UnivIsEntity {
     }
 
     private String getEndtime() {
-        SimpleDateFormat sdf = new SimpleDateFormat("HH:mm");
-        return sdf.format(this.endDate);
+        return DateParser.timeToString(this.endDate);
     }
 }
